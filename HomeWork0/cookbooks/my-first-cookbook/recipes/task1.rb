@@ -23,6 +23,10 @@ end
 
 template '/opt/opsSchool/test-task1.txt' do
   source 'test-task1.erb'
+  variables({
+  :package_name => "unzip",
+  :package_version => "6.0-9ubuntu1.5"
+  })
   action :create
   owner 'root'
   group 'root'
