@@ -29,7 +29,7 @@ end
 # end
 
 execute 'stop apachectl' do
-  command 'sudo apachectl stop'
+  command 'apachectl stop'
   action :run
 end
 
@@ -47,10 +47,10 @@ cookbook_file '/tmp/make_AARdb.sql' do
   action :create
 end
 
-# execute 'Run mysql script' do
-  # command 'mysql -proot < /tmp/make_AARdb.sql'
-  # action :run
-# end
+execute 'Run mysql script' do
+  command 'mysql -proot < /tmp/make_AARdb.sql'
+  action :run
+end
 
 cookbook_file '/tmp/make_AARdb.sql' do
   action :delete
@@ -71,6 +71,6 @@ end
 # end
 
 execute 'start apachectl' do
-  command 'sudo apachectl start'
+  command 'apachectl start'
   action :run
 end
