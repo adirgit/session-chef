@@ -1,0 +1,4 @@
+
+cookbook 'my-first-cookbook', :path => '<local path on the filesystem>'
+
+source 'https://supermarket.chef.io'
