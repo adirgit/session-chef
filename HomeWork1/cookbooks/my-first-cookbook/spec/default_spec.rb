@@ -3,6 +3,7 @@ require 'chefspec'
 describe 'my-first-cookbook::default' do
 
     let(:chef_run) { ChefSpec::SoloRunner.new(platform: 'ubuntu', version: '14.04').converge(described_recipe) }
+	let(:template) { chef_run.template('/var/www/AAR/AAR_config.py') }
 
     it 'creates apache config template with a VirtualHost definition' do
 		expect(chef_run).to create_template('/etc/apache2/sites-enabled/AAR-apache.conf')
@@ -11,7 +12,7 @@ describe 'my-first-cookbook::default' do
     end
 
     it 'restarts apache2 service on config file change' do
-		expect(chef_run).to notify('service[apache2]').to(:restart).immediately
+		expect(template).to notify('service[apache2]').to(:restart).immediately
 		
     end
 
@@ -20,7 +21,7 @@ describe 'my-first-cookbook::default' do
 		expect(chef_run).to enable_service('apache2')
     end
 	
-	it 'run mySQL script' do
-		expect(chef_run).to  run_execute('mysql -proot < /tmp/make_AARdb.sql')
+	it 'install python-mysqldb' do
+		expect(chef_run).to install_package('python-mysqldb')
 	end
 end

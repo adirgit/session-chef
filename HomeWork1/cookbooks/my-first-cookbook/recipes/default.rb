@@ -7,70 +7,55 @@
 # All rights reserved - Do Not Redistribute
 #
 
-package 'libapache2-mod-wsgi' do
-  action :install
-end
-
-package 'python-pip' do
-  action :install
-end
-
-package 'python-mysqldb' do
-  action :install
+node['mycookbook']['packages'].each do |pkg|
+	package pkg do
+	  action :install
+	end
 end
 
 execute 'Install python package' do
-  command 'pip install flask '
   action :run
+  command 'pip install flask'
+  # not_if 'pip list | grep -i flask | wc -l'
 end
 
-# service 'apachectl' do
-  # action [:stop]
-# end
-
-execute 'stop apachectl' do
-  command 'apachectl stop'
-  action :run
-end
-
-template '/etc/apache2/sites-enabled/AAR-apache.conf' do
+template node['mycookbook']['apache']['conf_file'] do
   source 'AAR-apache.conf.erb'
   action :create
 end
 
-template '/var/www/AAR/AAR_config.py' do
+template node['mycookbook']['app']['config_file'] do
   source 'AAR_config.py.erb'
   action :create
+  notifies :restart, 'service[apache2]', :immediately
 end
 
-cookbook_file '/tmp/make_AARdb.sql' do
+service 'apache2' do
+  action [:start, :enable]
+end
+
+cookbook_file node['mycookbook']['app']['db_creation_script'] do
   action :create
+  notifies :run, 'execute[Run mysql script]', :immediately
+  notifies :run, 'execute[Create mysql user]', :immediately
+  notifies :run, 'execute[Grant mysql user permissions]', :immediately
 end
 
 execute 'Run mysql script' do
-  command 'mysql -proot < /tmp/make_AARdb.sql'
-  action :run
-end
-
-cookbook_file '/tmp/make_AARdb.sql' do
-  action :delete
+  command "mysql -p#{node['mycookbook']['app']['mysql_pass']} < #{node['mycookbook']['app']['db_creation_script']}"
+  action :nothing
 end
 
 execute 'Create mysql user' do
-  command 'mysql -proot -e "CREATE USER \'aarapp\'@\'localhost\' IDENTIFIED BY \'7ERwzg7E\'"'
-  action :run
+  command "mysql -p#{node['mycookbook']['app']['mysql_pass']} -e \"CREATE USER \'#{node['mycookbook']['app']['db_user']}\'@\'#{node['mycookbook']['app']['db_host']}\' IDENTIFIED BY \'#{node['mycookbook']['app']['db_pass']}\'\""
+  action :nothing
 end
 
 execute 'Grant mysql user permissions' do
-  command 'mysql -proot -e "GRANT CREATE,INSERT,DELETE,UPDATE,SELECT on AARdb.* to aarapp@localhost"'
-  action :run
+  command "mysql -p#{node['mycookbook']['app']['mysql_pass']} -e 'GRANT CREATE,INSERT,DELETE,UPDATE,SELECT on #{node['mycookbook']['app']['db_name']}.* to #{node['mycookbook']['app']['db_user']}@#{node['mycookbook']['app']['db_host']}'"
+  action :nothing
 end
 
-# service 'apachectl' do
-  # action [:start, :enable]
+# cookbook_file '/tmp/make_AARdb.sql' do
+  # action :delete
 # end
-
-execute 'start apachectl' do
-  command 'apachectl start'
-  action :run
-end
