@@ -1,0 +1,11 @@
+require "C:/adir/opsSchool/10-Configuration Management/Git/chef-3/HomeWork2/kitchen_vagrant.rb"
+Vagrant.configure("2") do |c|
+  c.berkshelf.enabled = false if Vagrant.has_plugin?("vagrant-berkshelf")
+  c.vm.box = "ubuntu/precise64"
+  c.vm.hostname = "default-ubuntu-1204"
+  c.vm.network(:forwarded_port, {:guest=>80, :host=>8082})
+  c.vm.synced_folder ".", "/vagrant", disabled: true
+  c.vm.provider :virtualbox do |p|
+    p.customize ["modifyvm", :id, "--memory", "2048"]
+  end
+end

@@ -17,11 +17,11 @@ platforms:
       box: ubuntu/trusty64
       network:
        - ["forwarded_port", {guest: 80, host: 8081}]
-  - name: ubuntu-12.04
-    driver:
-      box: ubuntu/precise64
-      network:
-        - ["forwarded_port", {guest: 80, host: 8082}]
+  # - name: ubuntu-12.04
+    # driver:
+      # box: ubuntu/precise64
+      # network:
+        # - ["forwarded_port", {guest: 80, host: 8082}]
 
 suites:
   - name: default

@@ -1,0 +1,6 @@
+DEPENDENCIES
+  my-first-cookbook
+    path: cookbooks/my-first-cookbook
+
+GRAPH
+  my-first-cookbook (0.1.0)

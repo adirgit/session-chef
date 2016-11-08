@@ -1,0 +1,706 @@
+I, [2016-11-08T22:10:38.553010 #568]  INFO -- default-ubuntu-1204: -----> Creating <default-ubuntu-1204>...
+I, [2016-11-08T22:10:45.047242 #568]  INFO -- default-ubuntu-1204: Bringing machine 'default' up with 'virtualbox' provider...
+I, [2016-11-08T22:10:45.448226 #568]  INFO -- default-ubuntu-1204: ==> default: Box 'ubuntu/precise64' could not be found. Attempting to find and install...
+I, [2016-11-08T22:10:45.448226 #568]  INFO -- default-ubuntu-1204:     default: Box Provider: virtualbox
+I, [2016-11-08T22:10:45.449167 #568]  INFO -- default-ubuntu-1204:     default: Box Version: >= 0
+I, [2016-11-08T22:10:48.067456 #568]  INFO -- default-ubuntu-1204: ==> default: Loading metadata for box 'ubuntu/precise64'
+I, [2016-11-08T22:10:48.067456 #568]  INFO -- default-ubuntu-1204:     default: URL: https://atlas.hashicorp.com/ubuntu/precise64
+I, [2016-11-08T22:10:50.420616 #568]  INFO -- default-ubuntu-1204: ==> default: Adding box 'ubuntu/precise64' (v20161101.0.0) for provider: virtualbox
+I, [2016-11-08T22:10:50.420616 #568]  INFO -- default-ubuntu-1204:     default: Downloading: https://atlas.hashicorp.com/ubuntu/boxes/precise64/versions/20161101.0.0/providers/virtualbox.box
+I, [2016-11-08T22:17:49.606824 #568]  INFO -- default-ubuntu-1204: [K    default: Progress: 0% (Rate: 0/s, Estimated time remaining: --:--:--)[K    default: Progress: 100% (Rate: 115/s, Estimated time remaining: --:--:--)[K    default: Progress: 0% (Rate: 0/s, Estimated time remaining: --:--:--)[K    default: Progress: 0% (Rate: 642k/s, Estimated time remaining: 0:24:07)[K    default: Progress: 0% (Rate: 1385k/s, Estimated time remaining: 0:07:39)[K    default: Progress: 1% (Rate: 1434k/s, Estimated time remaining: 0:06:15)[K    default: Progress: 1% (Rate: 1427k/s, Estimated time remaining: 0:05:42)[K    default: Progress: 2% (Rate: 1426k/s, Estimated time remaining: 0:05:21)[K    default: Progress: 2% (Rate: 1586k/s, Estimated time remaining: 0:05:05)[K    default: Progress: 2% (Rate: 1437k/s, Estimated time remaining: 0:04:56)[K    default: Progress: 3% (Rate: 1420k/s, Estimated time remaining: 0:04:47)[K    default: Progress: 3% (Rate: 1472k/s, Estimated time remaining: 0:04:35)[K    default: Progress: 4% (Rate: 1536k/s, Estimated time remaining: 0:04:24)[K    default: Progress: 4% (Rate: 1519k/s, Estimated time remaining: 0:04:22)[K    default: Progress: 5% (Rate: 1571k/s, Estimated time remaining: 0:04:15)[K    default: Progress: 5% (Rate: 1506k/s, Estimated time remaining: 0:04:17)[K    default: Progress: 5% (Rate: 1366k/s, Estimated time remaining: 0:04:20)[K    default: Progress: 5% (Rate: 1234k/s, Estimated time remaining: 0:04:22)[K    default: Progress: 6% (Rate: 1170k/s, Estimated time remaining: 0:04:23)[K    default: Progress: 6% (Rate: 1044k/s, Estimated time remaining: 0:04:25)[K    default: Progress: 6% (Rate: 1058k/s, Estimated time remaining: 0:04:25)[K    default: Progress: 7% (Rate: 1122k/s, Estimated time remaining: 0:04:23)[K    default: Progress: 7% (Rate: 1211k/s, Estimated time remaining: 0:04:19)[K    default: Progress: 8% (Rate: 1387k/s, Estimated time remaining: 0:04:11)[K    default: Progress: 9% (Rate: 1709k/s, Estimated time remaining: 0:03:59)[K    default: Progress: 9% (Rate: 1948k/s, Estimated time remaining: 0:03:50)[K    default: Progress: 10% (Rate: 2199k/s, Estimated time remaining: 0:03:41)[K    default: Progress: 11% (Rate: 2325k/s, Estimated time remaining: 0:03:35)[K    default: Progress: 11% (Rate: 2173k/s, Estimated time remaining: 0:03:36)[K    default: Progress: 11% (Rate: 1895k/s, Estimated time remaining: 0:03:36)[K    default: Progress: 12% (Rate: 1671k/s, Estimated time remaining: 0:03:36)[K    default: Progress: 12% (Rate: 1408k/s, Estimated time remaining: 0:03:36)[K    default: Progress: 12% (Rate: 1235k/s, Estimated time remaining: 0:03:36)[K    default: Progress: 13% (Rate: 1267k/s, Estimated time remaining: 0:03:35)[K    default: Progress: 13% (Rate: 1327k/s, Estimated time remaining: 0:03:34)[K    default: Progress: 14% (Rate: 1414k/s, Estimated time remaining: 0:03:31)[K    default: Progress: 14% (Rate: 1508k/s, Estimated time remaining: 0:03:29)[K    default: Progress: 15% (Rate: 1608k/s, Estimated time remaining: 0:03:26)[K    default: Progress: 15% (Rate: 1688k/s, Estimated time remaining: 0:03:24)[K    default: Progress: 16% (Rate: 1691k/s, Estimated time remaining: 0:03:23)[K    default: Progress: 16% (Rate: 1604k/s, Estimated time remaining: 0:03:22)[K    default: Progress: 16% (Rate: 1498k/s, Estimated time remaining: 0:03:23)[K    default: Progress: 17% (Rate: 1366k/s, Estimated time remaining: 0:03:23)[K    default: Progress: 17% (Rate: 1149k/s, Estimated time remaining: 0:03:25)[K    default: Progress: 17% (Rate: 953k/s, Estimated time remaining: 0:03:28)[K    default: Progress: 17% (Rate: 788k/s, Estimated time remaining: 0:03:31)[K    default: Progress: 17% (Rate: 635k/s, Estimated time remaining: 0:03:34)[K    default: Progress: 17% (Rate: 485k/s, Estimated time remaining: 0:03:36)[K    default: Progress: 17% (Rate: 440k/s, Estimated time remaining: 0:03:39)[K    default: Progress: 17% (Rate: 419k/s, Estimated time remaining: 0:03:42)[K    default: Progress: 18% (Rate: 432k/s, Estimated time remaining: 0:03:44)[K    default: Progress: 18% (Rate: 500k/s, Estimated time remaining: 0:03:46)[K    default: Progress: 18% (Rate: 623k/s, Estimated time remaining: 0:03:46)[K    default: Progress: 19% (Rate: 871k/s, Estimated time remaining: 0:03:43)[K    default: Progress: 19% (Rate: 1040k/s, Estimated time remaining: 0:03:42)[K    default: Progress: 19% (Rate: 1215k/s, Estimated time remaining: 0:03:41)[K    default: Progress: 20% (Rate: 1309k/s, Estimated time remaining: 0:03:40)[K    default: Progress: 20% (Rate: 1340k/s, Estimated time remaining: 0:03:39)[K    default: Progress: 20% (Rate: 1261k/s, Estimated time remaining: 0:03:38)[K    default: Progress: 21% (Rate: 1253k/s, Estimated time remaining: 0:03:37)[K    default: Progress: 21% (Rate: 1219k/s, Estimated time remaining: 0:03:37)[K    default: Progress: 21% (Rate: 1244k/s, Estimated time remaining: 0:03:35)[K    default: Progress: 22% (Rate: 1288k/s, Estimated time remaining: 0:03:34)[K    default: Progress: 22% (Rate: 1256k/s, Estimated time remaining: 0:03:34)[K    default: Progress: 22% (Rate: 1164k/s, Estimated time remaining: 0:03:34)[K    default: Progress: 23% (Rate: 1043k/s, Estimated time remaining: 0:03:35)[K    default: Progress: 23% (Rate: 911k/s, Estimated time remaining: 0:03:36)[K    default: Progress: 23% (Rate: 761k/s, Estimated time remaining: 0:03:37)[K    default: Progress: 23% (Rate: 677k/s, Estimated time remaining: 0:03:38)[K    default: Progress: 23% (Rate: 655k/s, Estimated time remaining: 0:03:39)[K    default: Progress: 23% (Rate: 588k/s, Estimated time remaining: 0:03:41)[K    default: Progress: 24% (Rate: 525k/s, Estimated time remaining: 0:03:43)[K    default: Progress: 24% (Rate: 452k/s, Estimated time remaining: 0:03:46)[K    default: Progress: 24% (Rate: 387k/s, Estimated time remaining: 0:03:48)[K    default: Progress: 24% (Rate: 296k/s, Estimated time remaining: 0:03:50)[K    default: Progress: 24% (Rate: 279k/s, Estimated time remaining: 0:03:52)[K    default: Progress: 24% (Rate: 263k/s, Estimated time remaining: 0:03:55)[K    default: Progress: 24% (Rate: 265k/s, Estimated time remaining: 0:03:56)[K    default: Progress: 24% (Rate: 254k/s, Estimated time remaining: 0:03:58)[K    default: Progress: 24% (Rate: 265k/s, Estimated time remaining: 0:04:00)[K    default: Progress: 24% (Rate: 306k/s, Estimated time remaining: 0:04:02)[K    default: Progress: 24% (Rate: 329k/s, Estimated time remaining: 0:04:04)[K    default: Progress: 25% (Rate: 352k/s, Estimated time remaining: 0:04:05)[K    default: Progress: 25% (Rate: 376k/s, Estimated time remaining: 0:04:07)[K    default: Progress: 25% (Rate: 393k/s, Estimated time remaining: 0:04:08)[K    default: Progress: 25% (Rate: 394k/s, Estimated time remaining: 0:04:09)[K    default: Progress: 25% (Rate: 423k/s, Estimated time remaining: 0:04:10)[K    default: Progress: 25% (Rate: 466k/s, Estimated time remaining: 0:04:11)[K    default: Progress: 25% (Rate: 557k/s, Estimated time remaining: 0:04:11)[K    default: Progress: 26% (Rate: 753k/s, Estimated time remaining: 0:04:09)[K    default: Progress: 26% (Rate: 1021k/s, Estimated time remaining: 0:04:05)[K    default: Progress: 27% (Rate: 1234k/s, Estimated time remaining: 0:04:02)[K    default: Progress: 27% (Rate: 1467k/s, Estimated time remaining: 0:03:59)[K    default: Progress: 28% (Rate: 1662k/s, Estimated time remaining: 0:03:55)[K    default: Progress: 28% (Rate: 1768k/s, Estimated time remaining: 0:03:51)[K    default: Progress: 29% (Rate: 1789k/s, Estimated time remaining: 0:03:48)[K    default: Progress: 29% (Rate: 1809k/s, Estimated time remaining: 0:03:45)[K    default: Progress: 30% (Rate: 1700k/s, Estimated time remaining: 0:03:44)[K    default: Progress: 30% (Rate: 1597k/s, Estimated time remaining: 0:03:42)[K    default: Progress: 30% (Rate: 1489k/s, Estimated time remaining: 0:03:40)[K    default: Progress: 31% (Rate: 1291k/s, Estimated time remaining: 0:03:40)[K    default: Progress: 31% (Rate: 1114k/s, Estimated time remaining: 0:03:40)[K    default: Progress: 31% (Rate: 1034k/s, Estimated time remaining: 0:03:40)[K    default: Progress: 31% (Rate: 943k/s, Estimated time remaining: 0:03:39)[K    default: Progress: 32% (Rate: 831k/s, Estimated time remaining: 0:03:39)[K    default: Progress: 32% (Rate: 821k/s, Estimated time remaining: 0:03:39)[K    default: Progress: 32% (Rate: 857k/s, Estimated time remaining: 0:03:38)[K    default: Progress: 33% (Rate: 949k/s, Estimated time remaining: 0:03:36)[K    default: Progress: 33% (Rate: 1125k/s, Estimated time remaining: 0:03:34)[K    default: Progress: 34% (Rate: 1449k/s, Estimated time remaining: 0:03:29)[K    default: Progress: 34% (Rate: 1627k/s, Estimated time remaining: 0:03:27)[K    default: Progress: 35% (Rate: 1714k/s, Estimated time remaining: 0:03:25)[K    default: Progress: 35% (Rate: 1758k/s, Estimated time remaining: 0:03:23)[K    default: Progress: 35% (Rate: 1731k/s, Estimated time remaining: 0:03:21)[K    default: Progress: 36% (Rate: 1473k/s, Estimated time remaining: 0:03:20)[K    default: Progress: 36% (Rate: 1288k/s, Estimated time remaining: 0:03:19)[K    default: Progress: 36% (Rate: 1180k/s, Estimated time remaining: 0:03:19)[K    default: Progress: 36% (Rate: 1024k/s, Estimated time remaining: 0:03:19)[K    default: Progress: 37% (Rate: 851k/s, Estimated time remaining: 0:03:19)[K    default: Progress: 37% (Rate: 765k/s, Estimated time remaining: 0:03:19)[K    default: Progress: 37% (Rate: 706k/s, Estimated time remaining: 0:03:19)[K    default: Progress: 37% (Rate: 625k/s, Estimated time remaining: 0:03:20)[K    default: Progress: 37% (Rate: 573k/s, Estimated time remaining: 0:03:20)[K    default: Progress: 37% (Rate: 494k/s, Estimated time remaining: 0:03:21)[K    default: Progress: 37% (Rate: 385k/s, Estimated time remaining: 0:03:22)[K    default: Progress: 37% (Rate: 302k/s, Estimated time remaining: 0:03:24)[K    default: Progress: 38% (Rate: 238k/s, Estimated time remaining: 0:03:25)[K    default: Progress: 38% (Rate: 189k/s, Estimated time remaining: 0:03:26)[K    default: Progress: 38% (Rate: 193k/s, Estimated time remaining: 0:03:27)[K    default: Progress: 38% (Rate: 310k/s, Estimated time remaining: 0:03:27)[K    default: Progress: 38% (Rate: 526k/s, Estimated time remaining: 0:03:25)[K    default: Progress: 39% (Rate: 894k/s, Estimated time remaining: 0:03:22)[K    default: Progress: 39% (Rate: 1298k/s, Estimated time remaining: 0:03:18)[K    default: Progress: 40% (Rate: 1436k/s, Estimated time remaining: 0:03:17)[K    default: Progress: 40% (Rate: 1393k/s, Estimated time remaining: 0:03:17)[K    default: Progress: 40% (Rate: 1236k/s, Estimated time remaining: 0:03:18)[K    default: Progress: 40% (Rate: 895k/s, Estimated time remaining: 0:03:19)[K    default: Progress: 40% (Rate: 510k/s, Estimated time remaining: 0:03:20)[K    default: Progress: 40% (Rate: 375k/s, Estimated time remaining: 0:03:20)[K    default: Progress: 40% (Rate: 353k/s, Estimated time remaining: 0:03:21)[K    default: Progress: 41% (Rate: 366k/s, Estimated time remaining: 0:03:21)[K    default: Progress: 41% (Rate: 446k/s, Estimated time remaining: 0:03:21)[K    default: Progress: 41% (Rate: 546k/s, Estimated time remaining: 0:03:20)[K    default: Progress: 41% (Rate: 602k/s, Estimated time remaining: 0:03:20)[K    default: Progress: 41% (Rate: 628k/s, Estimated time remaining: 0:03:20)[K    default: Progress: 41% (Rate: 629k/s, Estimated time remaining: 0:03:21)[K    default: Progress: 42% (Rate: 572k/s, Estimated time remaining: 0:03:21)[K    default: Progress: 42% (Rate: 478k/s, Estimated time remaining: 0:03:22)[K    default: Progress: 42% (Rate: 428k/s, Estimated time remaining: 0:03:22)[K    default: Progress: 42% (Rate: 404k/s, Estimated time remaining: 0:03:22)[K    default: Progress: 42% (Rate: 396k/s, Estimated time remaining: 0:03:23)[K    default: Progress: 42% (Rate: 415k/s, Estimated time remaining: 0:03:23)[K    default: Progress: 42% (Rate: 489k/s, Estimated time remaining: 0:03:23)[K    default: Progress: 43% (Rate: 630k/s, Estimated time remaining: 0:03:21)[K    default: Progress: 43% (Rate: 871k/s, Estimated time remaining: 0:03:19)[K    default: Progress: 44% (Rate: 1176k/s, Estimated time remaining: 0:03:16)[K    default: Progress: 44% (Rate: 1489k/s, Estimated time remaining: 0:03:12)[K    default: Progress: 45% (Rate: 1756k/s, Estimated time remaining: 0:03:09)[K    default: Progress: 45% (Rate: 1835k/s, Estimated time remaining: 0:03:07)[K    default: Progress: 46% (Rate: 1761k/s, Estimated time remaining: 0:03:06)[K    default: Progress: 46% (Rate: 1625k/s, Estimated time remaining: 0:03:04)[K    default: Progress: 46% (Rate: 1443k/s, Estimated time remaining: 0:03:03)[K    default: Progress: 47% (Rate: 1306k/s, Estimated time remaining: 0:03:01)[K    default: Progress: 47% (Rate: 1271k/s, Estimated time remaining: 0:02:59)[K    default: Progress: 47% (Rate: 1296k/s, Estimated time remaining: 0:02:58)[K    default: Progress: 48% (Rate: 1276k/s, Estimated time remaining: 0:02:56)[K    default: Progress: 48% (Rate: 1169k/s, Estimated time remaining: 0:02:56)[K    default: Progress: 48% (Rate: 1039k/s, Estimated time remaining: 0:02:56)[K    default: Progress: 48% (Rate: 877k/s, Estimated time remaining: 0:02:56)[K    default: Progress: 48% (Rate: 715k/s, Estimated time remaining: 0:02:56)[K    default: Progress: 49% (Rate: 606k/s, Estimated time remaining: 0:02:56)[K    default: Progress: 49% (Rate: 601k/s, Estimated time remaining: 0:02:55)[K    default: Progress: 49% (Rate: 571k/s, Estimated time remaining: 0:02:55)[K    default: Progress: 49% (Rate: 555k/s, Estimated time remaining: 0:02:55)[K    default: Progress: 49% (Rate: 532k/s, Estimated time remaining: 0:02:56)[K    default: Progress: 49% (Rate: 513k/s, Estimated time remaining: 0:02:55)[K    default: Progress: 50% (Rate: 487k/s, Estimated time remaining: 0:02:56)[K    default: Progress: 50% (Rate: 476k/s, Estimated time remaining: 0:02:56)[K    default: Progress: 50% (Rate: 501k/s, Estimated time remaining: 0:02:56)[K    default: Progress: 50% (Rate: 539k/s, Estimated time remaining: 0:02:55)[K    default: Progress: 50% (Rate: 613k/s, Estimated time remaining: 0:02:54)[K    default: Progress: 51% (Rate: 784k/s, Estimated time remaining: 0:02:53)[K    default: Progress: 51% (Rate: 1079k/s, Estimated time remaining: 0:02:50)[K    default: Progress: 52% (Rate: 1396k/s, Estimated time remaining: 0:02:47)[K    default: Progress: 52% (Rate: 1510k/s, Estimated time remaining: 0:02:45)[K    default: Progress: 53% (Rate: 1586k/s, Estimated time remaining: 0:02:44)[K    default: Progress: 53% (Rate: 1562k/s, Estimated time remaining: 0:02:42)[K    default: Progress: 53% (Rate: 1325k/s, Estimated time remaining: 0:02:42)[K    default: Progress: 53% (Rate: 1009k/s, Estimated time remaining: 0:02:42)[K    default: Progress: 53% (Rate: 864k/s, Estimated time remaining: 0:02:41)[K    default: Progress: 54% (Rate: 708k/s, Estimated time remaining: 0:02:41)[K    default: Progress: 54% (Rate: 591k/s, Estimated time remaining: 0:02:41)[K    default: Progress: 54% (Rate: 566k/s, Estimated time remaining: 0:02:41)[K    default: Progress: 54% (Rate: 615k/s, Estimated time remaining: 0:02:40)[K    default: Progress: 54% (Rate: 718k/s, Estimated time remaining: 0:02:39)[K    default: Progress: 55% (Rate: 829k/s, Estimated time remaining: 0:02:38)[K    default: Progress: 55% (Rate: 864k/s, Estimated time remaining: 0:02:37)[K    default: Progress: 55% (Rate: 867k/s, Estimated time remaining: 0:02:37)[K    default: Progress: 55% (Rate: 848k/s, Estimated time remaining: 0:02:36)[K    default: Progress: 56% (Rate: 773k/s, Estimated time remaining: 0:02:36)[K    default: Progress: 56% (Rate: 693k/s, Estimated time remaining: 0:02:36)[K    default: Progress: 56% (Rate: 699k/s, Estimated time remaining: 0:02:35)[K    default: Progress: 56% (Rate: 749k/s, Estimated time remaining: 0:02:34)[K    default: Progress: 57% (Rate: 844k/s, Estimated time remaining: 0:02:33)[K    default: Progress: 57% (Rate: 1048k/s, Estimated time remaining: 0:02:30)[K    default: Progress: 58% (Rate: 1309k/s, Estimated time remaining: 0:02:28)[K    default: Progress: 58% (Rate: 1536k/s, Estimated time remaining: 0:02:25)[K    default: Progress: 59% (Rate: 1790k/s, Estimated time remaining: 0:02:22)[K    default: Progress: 59% (Rate: 1851k/s, Estimated time remaining: 0:02:20)[K    default: Progress: 60% (Rate: 1764k/s, Estimated time remaining: 0:02:19)[K    default: Progress: 60% (Rate: 1625k/s, Estimated time remaining: 0:02:17)[K    default: Progress: 60% (Rate: 1490k/s, Estimated time remaining: 0:02:16)[K    default: Progress: 61% (Rate: 1274k/s, Estimated time remaining: 0:02:15)[K    default: Progress: 61% (Rate: 1166k/s, Estimated time remaining: 0:02:14)[K    default: Progress: 61% (Rate: 1091k/s, Estimated time remaining: 0:02:13)[K    default: Progress: 61% (Rate: 1015k/s, Estimated time remaining: 0:02:12)[K    default: Progress: 62% (Rate: 939k/s, Estimated time remaining: 0:02:12)[K    default: Progress: 62% (Rate: 899k/s, Estimated time remaining: 0:02:11)[K    default: Progress: 62% (Rate: 911k/s, Estimated time remaining: 0:02:10)[K    default: Progress: 62% (Rate: 961k/s, Estimated time remaining: 0:02:09)[K    default: Progress: 63% (Rate: 1052k/s, Estimated time remaining: 0:02:07)[K    default: Progress: 63% (Rate: 1027k/s, Estimated time remaining: 0:02:06)[K    default: Progress: 63% (Rate: 972k/s, Estimated time remaining: 0:02:06)[K    default: Progress: 63% (Rate: 889k/s, Estimated time remaining: 0:02:06)[K    default: Progress: 64% (Rate: 785k/s, Estimated time remaining: 0:02:05)[K    default: Progress: 64% (Rate: 606k/s, Estimated time remaining: 0:02:05)[K    default: Progress: 64% (Rate: 569k/s, Estimated time remaining: 0:02:05)[K    default: Progress: 64% (Rate: 575k/s, Estimated time remaining: 0:02:04)[K    default: Progress: 64% (Rate: 577k/s, Estimated time remaining: 0:02:04)[K    default: Progress: 64% (Rate: 578k/s, Estimated time remaining: 0:02:04)[K    default: Progress: 65% (Rate: 611k/s, Estimated time remaining: 0:02:03)[K    default: Progress: 65% (Rate: 662k/s, Estimated time remaining: 0:02:02)[K    default: Progress: 65% (Rate: 752k/s, Estimated time remaining: 0:02:01)[K    default: Progress: 66% (Rate: 929k/s, Estimated time remaining: 0:02:00)[K    default: Progress: 66% (Rate: 1218k/s, Estimated time remaining: 0:01:57)[K    default: Progress: 67% (Rate: 1627k/s, Estimated time remaining: 0:01:53)[K    default: Progress: 68% (Rate: 1957k/s, Estimated time remaining: 0:01:50)[K    default: Progress: 68% (Rate: 2303k/s, Estimated time remaining: 0:01:47)[K    default: Progress: 69% (Rate: 2498k/s, Estimated time remaining: 0:01:44)[K    default: Progress: 70% (Rate: 2522k/s, Estimated time remaining: 0:01:41)[K    default: Progress: 70% (Rate: 2366k/s, Estimated time remaining: 0:01:39)[K    default: Progress: 71% (Rate: 2207k/s, Estimated time remaining: 0:01:37)[K    default: Progress: 71% (Rate: 1886k/s, Estimated time remaining: 0:01:36)[K    default: Progress: 72% (Rate: 1651k/s, Estimated time remaining: 0:01:34)[K    default: Progress: 72% (Rate: 1489k/s, Estimated time remaining: 0:01:33)[K    default: Progress: 72% (Rate: 1371k/s, Estimated time remaining: 0:01:32)[K    default: Progress: 73% (Rate: 1253k/s, Estimated time remaining: 0:01:31)[K    default: Progress: 73% (Rate: 1255k/s, Estimated time remaining: 0:01:29)[K    default: Progress: 73% (Rate: 1224k/s, Estimated time remaining: 0:01:28)[K    default: Progress: 74% (Rate: 1139k/s, Estimated time remaining: 0:01:27)[K    default: Progress: 74% (Rate: 1066k/s, Estimated time remaining: 0:01:27)[K    default: Progress: 74% (Rate: 1064k/s, Estimated time remaining: 0:01:26)[K    default: Progress: 74% (Rate: 1033k/s, Estimated time remaining: 0:01:24)[K    default: Progress: 75% (Rate: 1029k/s, Estimated time remaining: 0:01:23)[K    default: Progress: 75% (Rate: 1064k/s, Estimated time remaining: 0:01:22)[K    default: Progress: 75% (Rate: 1102k/s, Estimated time remaining: 0:01:21)[K    default: Progress: 76% (Rate: 1130k/s, Estimated time remaining: 0:01:20)[K    default: Progress: 76% (Rate: 1184k/s, Estimated time remaining: 0:01:19)[K    default: Progress: 76% (Rate: 1192k/s, Estimated time remaining: 0:01:17)[K    default: Progress: 77% (Rate: 1145k/s, Estimated time remaining: 0:01:17)[K    default: Progress: 77% (Rate: 1034k/s, Estimated time remaining: 0:01:16)[K    default: Progress: 77% (Rate: 853k/s, Estimated time remaining: 0:01:16)[K    default: Progress: 77% (Rate: 656k/s, Estimated time remaining: 0:01:16)[K    default: Progress: 77% (Rate: 518k/s, Estimated time remaining: 0:01:16)[K    default: Progress: 77% (Rate: 419k/s, Estimated time remaining: 0:01:16)[K    default: Progress: 77% (Rate: 380k/s, Estimated time remaining: 0:01:15)[K    default: Progress: 78% (Rate: 399k/s, Estimated time remaining: 0:01:15)[K    default: Progress: 78% (Rate: 414k/s, Estimated time remaining: 0:01:15)[K    default: Progress: 78% (Rate: 403k/s, Estimated time remaining: 0:01:15)[K    default: Progress: 78% (Rate: 402k/s, Estimated time remaining: 0:01:14)[K    default: Progress: 78% (Rate: 402k/s, Estimated time remaining: 0:01:14)[K    default: Progress: 78% (Rate: 414k/s, Estimated time remaining: 0:01:14)[K    default: Progress: 78% (Rate: 432k/s, Estimated time remaining: 0:01:14)[K    default: Progress: 78% (Rate: 464k/s, Estimated time remaining: 0:01:13)[K    default: Progress: 79% (Rate: 507k/s, Estimated time remaining: 0:01:13)[K    default: Progress: 79% (Rate: 542k/s, Estimated time remaining: 0:01:12)[K    default: Progress: 79% (Rate: 558k/s, Estimated time remaining: 0:01:12)[K    default: Progress: 79% (Rate: 567k/s, Estimated time remaining: 0:01:11)[K    default: Progress: 79% (Rate: 571k/s, Estimated time remaining: 0:01:11)[K    default: Progress: 79% (Rate: 517k/s, Estimated time remaining: 0:01:11)[K    default: Progress: 79% (Rate: 413k/s, Estimated time remaining: 0:01:11)[K    default: Progress: 79% (Rate: 334k/s, Estimated time remaining: 0:01:11)[K    default: Progress: 79% (Rate: 279k/s, Estimated time remaining: 0:01:11)[K    default: Progress: 80% (Rate: 209k/s, Estimated time remaining: 0:01:11)[K    default: Progress: 80% (Rate: 194k/s, Estimated time remaining: 0:01:11)[K    default: Progress: 80% (Rate: 233k/s, Estimated time remaining: 0:01:11)[K    default: Progress: 80% (Rate: 263k/s, Estimated time remaining: 0:01:10)[K    default: Progress: 80% (Rate: 279k/s, Estimated time remaining: 0:01:10)[K    default: Progress: 80% (Rate: 300k/s, Estimated time remaining: 0:01:10)[K    default: Progress: 80% (Rate: 309k/s, Estimated time remaining: 0:01:10)[K    default: Progress: 80% (Rate: 317k/s, Estimated time remaining: 0:01:10)[K    default: Progress: 80% (Rate: 312k/s, Estimated time remaining: 0:01:10)[K    default: Progress: 80% (Rate: 305k/s, Estimated time remaining: 0:01:10)[K    default: Progress: 80% (Rate: 304k/s, Estimated time remaining: 0:01:09)[K    default: Progress: 80% (Rate: 303k/s, Estimated time remaining: 0:01:09)[K    default: Progress: 81% (Rate: 306k/s, Estimated time remaining: 0:01:09)[K    default: Progress: 81% (Rate: 313k/s, Estimated time remaining: 0:01:09)[K    default: Progress: 81% (Rate: 328k/s, Estimated time remaining: 0:01:09)[K    default: Progress: 81% (Rate: 341k/s, Estimated time remaining: 0:01:08)[K    default: Progress: 81% (Rate: 370k/s, Estimated time remaining: 0:01:08)[K    default: Progress: 81% (Rate: 394k/s, Estimated time remaining: 0:01:08)[K    default: Progress: 81% (Rate: 442k/s, Estimated time remaining: 0:01:07)[K    default: Progress: 81% (Rate: 479k/s, Estimated time remaining: 0:01:07)[K    default: Progress: 82% (Rate: 507k/s, Estimated time remaining: 0:01:06)[K    default: Progress: 82% (Rate: 526k/s, Estimated time remaining: 0:01:06)[K    default: Progress: 82% (Rate: 562k/s, Estimated time remaining: 0:01:05)[K    default: Progress: 82% (Rate: 623k/s, Estimated time remaining: 0:01:04)[K    default: Progress: 82% (Rate: 707k/s, Estimated time remaining: 0:01:03)[K    default: Progress: 83% (Rate: 736k/s, Estimated time remaining: 0:01:03)[K    default: Progress: 83% (Rate: 758k/s, Estimated time remaining: 0:01:02)[K    default: Progress: 83% (Rate: 781k/s, Estimated time remaining: 0:01:01)[K    default: Progress: 83% (Rate: 712k/s, Estimated time remaining: 0:01:01)[K    default: Progress: 83% (Rate: 626k/s, Estimated time remaining: 0:01:00)[K    default: Progress: 83% (Rate: 577k/s, Estimated time remaining: 0:01:00)[K    default: Progress: 84% (Rate: 527k/s, Estimated time remaining: 0:01:00)[K    default: Progress: 84% (Rate: 437k/s, Estimated time remaining: 0:00:59)[K    default: Progress: 84% (Rate: 395k/s, Estimated time remaining: 0:00:59)[K    default: Progress: 84% (Rate: 345k/s, Estimated time remaining: 0:00:59)[K    default: Progress: 84% (Rate: 323k/s, Estimated time remaining: 0:00:59)[K    default: Progress: 84% (Rate: 304k/s, Estimated time remaining: 0:00:59)[K    default: Progress: 84% (Rate: 312k/s, Estimated time remaining: 0:00:58)[K    default: Progress: 84% (Rate: 336k/s, Estimated time remaining: 0:00:58)[K    default: Progress: 84% (Rate: 340k/s, Estimated time remaining: 0:00:58)[K    default: Progress: 84% (Rate: 349k/s, Estimated time remaining: 0:00:57)[K    default: Progress: 85% (Rate: 349k/s, Estimated time remaining: 0:00:57)[K    default: Progress: 85% (Rate: 340k/s, Estimated time remaining: 0:00:57)[K    default: Progress: 85% (Rate: 321k/s, Estimated time remaining: 0:00:57)[K    default: Progress: 85% (Rate: 321k/s, Estimated time remaining: 0:00:57)[K    default: Progress: 85% (Rate: 312k/s, Estimated time remaining: 0:00:56)[K    default: Progress: 85% (Rate: 322k/s, Estimated time remaining: 0:00:56)[K    default: Progress: 85% (Rate: 330k/s, Estimated time remaining: 0:00:56)[K    default: Progress: 85% (Rate: 348k/s, Estimated time remaining: 0:00:55)[K    default: Progress: 85% (Rate: 371k/s, Estimated time remaining: 0:00:55)[K    default: Progress: 85% (Rate: 376k/s, Estimated time remaining: 0:00:55)[K    default: Progress: 86% (Rate: 392k/s, Estimated time remaining: 0:00:54)[K    default: Progress: 86% (Rate: 419k/s, Estimated time remaining: 0:00:54)[K    default: Progress: 86% (Rate: 414k/s, Estimated time remaining: 0:00:54)[K    default: Progress: 86% (Rate: 397k/s, Estimated time remaining: 0:00:53)[K    default: Progress: 86% (Rate: 404k/s, Estimated time remaining: 0:00:53)[K    default: Progress: 86% (Rate: 400k/s, Estimated time remaining: 0:00:53)[K    default: Progress: 86% (Rate: 398k/s, Estimated time remaining: 0:00:52)[K    default: Progress: 86% (Rate: 426k/s, Estimated time remaining: 0:00:52)[K    default: Progress: 87% (Rate: 492k/s, Estimated time remaining: 0:00:51)[K    default: Progress: 87% (Rate: 554k/s, Estimated time remaining: 0:00:50)[K    default: Progress: 87% (Rate: 638k/s, Estimated time remaining: 0:00:49)[K    default: Progress: 87% (Rate: 706k/s, Estimated time remaining: 0:00:48)[K    default: Progress: 87% (Rate: 774k/s, Estimated time remaining: 0:00:47)[K    default: Progress: 88% (Rate: 772k/s, Estimated time remaining: 0:00:47)[K    default: Progress: 88% (Rate: 772k/s, Estimated time remaining: 0:00:46)[K    default: Progress: 88% (Rate: 699k/s, Estimated time remaining: 0:00:45)[K    default: Progress: 88% (Rate: 649k/s, Estimated time remaining: 0:00:45)[K    default: Progress: 88% (Rate: 565k/s, Estimated time remaining: 0:00:44)[K    default: Progress: 88% (Rate: 506k/s, Estimated time remaining: 0:00:44)[K    default: Progress: 88% (Rate: 419k/s, Estimated time remaining: 0:00:44)[K    default: Progress: 89% (Rate: 365k/s, Estimated time remaining: 0:00:44)[K    default: Progress: 89% (Rate: 305k/s, Estimated time remaining: 0:00:44)[K    default: Progress: 89% (Rate: 274k/s, Estimated time remaining: 0:00:43)[K    default: Progress: 89% (Rate: 260k/s, Estimated time remaining: 0:00:43)[K    default: Progress: 89% (Rate: 255k/s, Estimated time remaining: 0:00:43)[K    default: Progress: 89% (Rate: 269k/s, Estimated time remaining: 0:00:43)[K    default: Progress: 89% (Rate: 272k/s, Estimated time remaining: 0:00:42)[K    default: Progress: 89% (Rate: 272k/s, Estimated time remaining: 0:00:42)[K    default: Progress: 89% (Rate: 276k/s, Estimated time remaining: 0:00:42)[K    default: Progress: 89% (Rate: 306k/s, Estimated time remaining: 0:00:41)[K    default: Progress: 89% (Rate: 371k/s, Estimated time remaining: 0:00:41)[K    default: Progress: 90% (Rate: 505k/s, Estimated time remaining: 0:00:40)[K    default: Progress: 90% (Rate: 699k/s, Estimated time remaining: 0:00:38)[K    default: Progress: 90% (Rate: 806k/s, Estimated time remaining: 0:00:37)[K    default: Progress: 91% (Rate: 894k/s, Estimated time remaining: 0:00:36)[K    default: Progress: 91% (Rate: 899k/s, Estimated time remaining: 0:00:36)[K    default: Progress: 91% (Rate: 832k/s, Estimated time remaining: 0:00:35)[K    default: Progress: 91% (Rate: 705k/s, Estimated time remaining: 0:00:34)[K    default: Progress: 91% (Rate: 642k/s, Estimated time remaining: 0:00:34)[K    default: Progress: 91% (Rate: 570k/s, Estimated time remaining: 0:00:33)[K    default: Progress: 92% (Rate: 560k/s, Estimated time remaining: 0:00:32)[K    default: Progress: 92% (Rate: 525k/s, Estimated time remaining: 0:00:32)[K    default: Progress: 92% (Rate: 493k/s, Estimated time remaining: 0:00:32)[K    default: Progress: 92% (Rate: 472k/s, Estimated time remaining: 0:00:31)[K    default: Progress: 92% (Rate: 459k/s, Estimated time remaining: 0:00:31)[K    default: Progress: 92% (Rate: 436k/s, Estimated time remaining: 0:00:30)[K    default: Progress: 92% (Rate: 446k/s, Estimated time remaining: 0:00:30)[K    default: Progress: 92% (Rate: 465k/s, Estimated time remaining: 0:00:29)[K    default: Progress: 93% (Rate: 539k/s, Estimated time remaining: 0:00:28)[K    default: Progress: 93% (Rate: 592k/s, Estimated time remaining: 0:00:27)[K    default: Progress: 93% (Rate: 663k/s, Estimated time remaining: 0:00:26)[K    default: Progress: 93% (Rate: 732k/s, Estimated time remaining: 0:00:25)[K    default: Progress: 94% (Rate: 787k/s, Estimated time remaining: 0:00:24)[K    default: Progress: 94% (Rate: 798k/s, Estimated time remaining: 0:00:23)[K    default: Progress: 94% (Rate: 832k/s, Estimated time remaining: 0:00:22)[K    default: Progress: 94% (Rate: 838k/s, Estimated time remaining: 0:00:21)[K    default: Progress: 94% (Rate: 761k/s, Estimated time remaining: 0:00:21)[K    default: Progress: 95% (Rate: 692k/s, Estimated time remaining: 0:00:20)[K    default: Progress: 95% (Rate: 624k/s, Estimated time remaining: 0:00:20)[K    default: Progress: 95% (Rate: 547k/s, Estimated time remaining: 0:00:19)[K    default: Progress: 95% (Rate: 489k/s, Estimated time remaining: 0:00:19)[K    default: Progress: 95% (Rate: 500k/s, Estimated time remaining: 0:00:18)[K    default: Progress: 95% (Rate: 507k/s, Estimated time remaining: 0:00:18)[K    default: Progress: 95% (Rate: 522k/s, Estimated time remaining: 0:00:17)[K    default: Progress: 96% (Rate: 493k/s, Estimated time remaining: 0:00:16)[K    default: Progress: 96% (Rate: 450k/s, Estimated time remaining: 0:00:16)[K    default: Progress: 96% (Rate: 410k/s, Estimated time remaining: 0:00:16)[K    default: Progress: 96% (Rate: 381k/s, Estimated time remaining: 0:00:15)[K    default: Progress: 96% (Rate: 348k/s, Estimated time remaining: 0:00:15)[K    default: Progress: 96% (Rate: 357k/s, Estimated time remaining: 0:00:15)[K    default: Progress: 96% (Rate: 365k/s, Estimated time remaining: 0:00:14)[K    default: Progress: 96% (Rate: 403k/s, Estimated time remaining: 0:00:14)[K    default: Progress: 97% (Rate: 467k/s, Estimated time remaining: 0:00:13)[K    default: Progress: 97% (Rate: 503k/s, Estimated time remaining: 0:00:12)[K    default: Progress: 97% (Rate: 535k/s, Estimated time remaining: 0:00:11)[K    default: Progress: 97% (Rate: 595k/s, Estimated time remaining: 0:00:11)[K    default: Progress: 97% (Rate: 639k/s, Estimated time remaining: 0:00:10)[K    default: Progress: 97% (Rate: 605k/s, Estimated time remaining: 0:00:09)[K    default: Progress: 98% (Rate: 616k/s, Estimated time remaining: 0:00:08)[K    default: Progress: 98% (Rate: 657k/s, Estimated time remaining: 0:00:07)[K    default: Progress: 98% (Rate: 678k/s, Estimated time remaining: 0:00:07)[K    default: Progress: 98% (Rate: 689k/s, Estimated time remaining: 0:00:06)[K    default: Progress: 98% (Rate: 739k/s, Estimated time remaining: 0:00:05)[K    default: Progress: 99% (Rate: 769k/s, Estimated time remaining: 0:00:04)[K    default: Progress: 99% (Rate: 825k/s, Estimated time remaining: 0:00:02)[K    default: Progress: 99% (Rate: 920k/s, Estimated time remaining: 0:00:01)[K    default: Progress: 100% (Rate: 1018k/s, Estimated time remaining: --:--:--)[K    default: 
+I, [2016-11-08T22:17:49.931617 #568]  INFO -- default-ubuntu-1204: ==> default: Successfully added box 'ubuntu/precise64' (v20161101.0.0) for 'virtualbox'!
+I, [2016-11-08T22:17:50.071834 #568]  INFO -- default-ubuntu-1204: ==> default: Importing base box 'ubuntu/precise64'...
+I, [2016-11-08T22:17:57.184115 #568]  INFO -- default-ubuntu-1204: [KProgress: 90%[K==> default: Matching MAC address for NAT networking...
+I, [2016-11-08T22:17:57.410599 #568]  INFO -- default-ubuntu-1204: ==> default: Checking if box 'ubuntu/precise64' is up to date...
+I, [2016-11-08T22:17:59.746409 #568]  INFO -- default-ubuntu-1204: ==> default: Setting the name of the VM: kitchen-HomeWork2-default-ubuntu-1204_default_1478636279698_79955
+I, [2016-11-08T22:17:59.886566 #568]  INFO -- default-ubuntu-1204: ==> default: Clearing any previously set forwarded ports...
+I, [2016-11-08T22:18:02.269754 #568]  INFO -- default-ubuntu-1204: ==> default: Fixed port collision for 22 => 2222. Now on port 2200.
+I, [2016-11-08T22:18:02.323703 #568]  INFO -- default-ubuntu-1204: ==> default: Clearing any previously set network interfaces...
+I, [2016-11-08T22:18:02.388465 #568]  INFO -- default-ubuntu-1204: ==> default: Preparing network interfaces based on configuration...
+I, [2016-11-08T22:18:02.388465 #568]  INFO -- default-ubuntu-1204:     default: Adapter 1: nat
+I, [2016-11-08T22:18:02.453235 #568]  INFO -- default-ubuntu-1204: ==> default: Forwarding ports...
+I, [2016-11-08T22:18:02.507209 #568]  INFO -- default-ubuntu-1204:     default: 80 (guest) => 8082 (host) (adapter 1)
+I, [2016-11-08T22:18:02.507209 #568]  INFO -- default-ubuntu-1204:     default: 22 (guest) => 2200 (host) (adapter 1)
+I, [2016-11-08T22:18:02.679922 #568]  INFO -- default-ubuntu-1204: ==> default: Running 'pre-boot' VM customizations...
+I, [2016-11-08T22:18:02.734042 #568]  INFO -- default-ubuntu-1204: ==> default: Booting VM...
+I, [2016-11-08T22:18:05.543975 #568]  INFO -- default-ubuntu-1204: ==> default: Waiting for machine to boot. This may take a few minutes...
+I, [2016-11-08T22:18:05.889197 #568]  INFO -- default-ubuntu-1204:     default: SSH address: 127.0.0.1:2200
+I, [2016-11-08T22:18:05.889197 #568]  INFO -- default-ubuntu-1204:     default: SSH username: vagrant
+I, [2016-11-08T22:18:05.889197 #568]  INFO -- default-ubuntu-1204:     default: SSH auth method: private key
+I, [2016-11-08T22:18:28.901427 #568]  INFO -- default-ubuntu-1204:     default: 
+I, [2016-11-08T22:18:28.901427 #568]  INFO -- default-ubuntu-1204:     default: Vagrant insecure key detected. Vagrant will automatically replace
+I, [2016-11-08T22:18:28.901427 #568]  INFO -- default-ubuntu-1204:     default: this with a newly generated keypair for better security.
+I, [2016-11-08T22:18:29.820055 #568]  INFO -- default-ubuntu-1204:     default: 
+I, [2016-11-08T22:18:29.820055 #568]  INFO -- default-ubuntu-1204:     default: Inserting generated public key within guest...
+I, [2016-11-08T22:18:30.068629 #568]  INFO -- default-ubuntu-1204:     default: Removing insecure key from the guest if it's present...
+I, [2016-11-08T22:18:30.346529 #568]  INFO -- default-ubuntu-1204:     default: Key inserted! Disconnecting and reconnecting using new SSH key...
+I, [2016-11-08T22:18:30.959007 #568]  INFO -- default-ubuntu-1204: ==> default: Machine booted and ready!
+I, [2016-11-08T22:18:30.959007 #568]  INFO -- default-ubuntu-1204: ==> default: Checking for guest additions in VM...
+I, [2016-11-08T22:18:31.002280 #568]  INFO -- default-ubuntu-1204:     default: The guest additions on this VM do not match the installed version of
+I, [2016-11-08T22:18:31.002280 #568]  INFO -- default-ubuntu-1204:     default: VirtualBox! In most cases this is fine, but in rare cases it can
+I, [2016-11-08T22:18:31.002280 #568]  INFO -- default-ubuntu-1204:     default: prevent things such as shared folders from working properly. If you see
+I, [2016-11-08T22:18:31.002280 #568]  INFO -- default-ubuntu-1204:     default: shared folder errors, please make sure the guest additions within the
+I, [2016-11-08T22:18:31.002280 #568]  INFO -- default-ubuntu-1204:     default: virtual machine match the version of VirtualBox you have installed on
+I, [2016-11-08T22:18:31.002280 #568]  INFO -- default-ubuntu-1204:     default: your host and reload your VM.
+I, [2016-11-08T22:18:31.002280 #568]  INFO -- default-ubuntu-1204:     default: 
+I, [2016-11-08T22:18:31.002280 #568]  INFO -- default-ubuntu-1204:     default: Guest Additions Version: 4.1.44
+I, [2016-11-08T22:18:31.002280 #568]  INFO -- default-ubuntu-1204:     default: VirtualBox Version: 5.1
+I, [2016-11-08T22:18:31.003262 #568]  INFO -- default-ubuntu-1204: ==> default: Setting hostname...
+I, [2016-11-08T22:18:31.392695 #568]  INFO -- default-ubuntu-1204: ==> default: Running provisioner: shell...
+I, [2016-11-08T22:18:31.660592 #568]  INFO -- default-ubuntu-1204:     default: Running: inline script
+I, [2016-11-08T22:18:31.747883 #568]  INFO -- default-ubuntu-1204: ==> default: stdin: is not a tty
+I, [2016-11-08T22:18:32.122019 #568]  INFO -- default-ubuntu-1204: ==> default: Hit http://archive.ubuntu.com precise Release.gpg
+I, [2016-11-08T22:18:32.198093 #568]  INFO -- default-ubuntu-1204: ==> default: Get:1 http://archive.ubuntu.com precise-updates Release.gpg [198 B]
+I, [2016-11-08T22:18:32.273903 #568]  INFO -- default-ubuntu-1204: ==> default: Hit http://archive.ubuntu.com precise-backports Release.gpg
+I, [2016-11-08T22:18:32.328103 #568]  INFO -- default-ubuntu-1204: ==> default: Get:2 http://security.ubuntu.com precise-security Release.gpg [198 B]
+I, [2016-11-08T22:18:32.371479 #568]  INFO -- default-ubuntu-1204: ==> default: Hit http://archive.ubuntu.com precise Release
+I, [2016-11-08T22:18:32.447091 #568]  INFO -- default-ubuntu-1204: ==> default: Get:3 http://archive.ubuntu.com precise-updates Release [55.4 kB]
+I, [2016-11-08T22:18:32.501219 #568]  INFO -- default-ubuntu-1204: ==> default: Get:4 http://security.ubuntu.com precise-security Release [55.5 kB]
+I, [2016-11-08T22:18:32.751853 #568]  INFO -- default-ubuntu-1204: ==> default: Hit http://archive.ubuntu.com precise-backports Release
+I, [2016-11-08T22:18:32.827864 #568]  INFO -- default-ubuntu-1204: ==> default: Get:5 http://archive.ubuntu.com precise/main Sources [934 kB]
+I, [2016-11-08T22:18:33.217362 #568]  INFO -- default-ubuntu-1204: ==> default: Get:6 http://security.ubuntu.com precise-security/main Sources [144 kB]
+I, [2016-11-08T22:18:33.821116 #568]  INFO -- default-ubuntu-1204: ==> default: Get:7 http://security.ubuntu.com precise-security/universe Sources [53.6 kB]
+I, [2016-11-08T22:18:34.048223 #568]  INFO -- default-ubuntu-1204: ==> default: Get:8 http://security.ubuntu.com precise-security/main amd64 Packages [642 kB]
+I, [2016-11-08T22:18:36.754407 #568]  INFO -- default-ubuntu-1204: ==> default: Get:9 http://archive.ubuntu.com precise/restricted Sources [5,470 B]
+I, [2016-11-08T22:18:36.829981 #568]  INFO -- default-ubuntu-1204: ==> default: Get:10 http://archive.ubuntu.com precise/universe Sources [5,019 kB]
+I, [2016-11-08T22:18:39.935818 #568]  INFO -- default-ubuntu-1204: ==> default: Get:11 http://security.ubuntu.com precise-security/universe amd64 Packages [138 kB]
+I, [2016-11-08T22:18:41.592859 #568]  INFO -- default-ubuntu-1204: ==> default: Get:12 http://security.ubuntu.com precise-security/main i386 Packages [712 kB]
+I, [2016-11-08T22:18:46.453204 #568]  INFO -- default-ubuntu-1204: ==> default: Get:13 http://security.ubuntu.com precise-security/universe i386 Packages [146 kB]
+I, [2016-11-08T22:18:47.047729 #568]  INFO -- default-ubuntu-1204: ==> default: Get:14 http://archive.ubuntu.com precise/multiverse Sources [155 kB]
+I, [2016-11-08T22:18:47.220419 #568]  INFO -- default-ubuntu-1204: ==> default: Get:15 http://security.ubuntu.com precise-security/main TranslationIndex [208 B]
+I, [2016-11-08T22:18:47.393158 #568]  INFO -- default-ubuntu-1204: ==> default: Get:16 http://security.ubuntu.com precise-security/universe TranslationIndex [205 B]
+I, [2016-11-08T22:18:47.555079 #568]  INFO -- default-ubuntu-1204: ==> default: Hit http://archive.ubuntu.com precise/main amd64 Packages
+I, [2016-11-08T22:18:47.576671 #568]  INFO -- default-ubuntu-1204: ==> default: Get:17 http://security.ubuntu.com precise-security/main Translation-en [264 kB]
+I, [2016-11-08T22:18:47.619826 #568]  INFO -- default-ubuntu-1204: ==> default: Hit http://archive.ubuntu.com precise/restricted amd64 Packages
+I, [2016-11-08T22:18:47.684621 #568]  INFO -- default-ubuntu-1204: ==> default: Hit http://archive.ubuntu.com precise/universe amd64 Packages
+I, [2016-11-08T22:18:47.781773 #568]  INFO -- default-ubuntu-1204: ==> default: Hit http://archive.ubuntu.com precise/multiverse amd64 Packages
+I, [2016-11-08T22:18:47.846510 #568]  INFO -- default-ubuntu-1204: ==> default: Hit http://archive.ubuntu.com precise/main i386 Packages
+I, [2016-11-08T22:18:47.932867 #568]  INFO -- default-ubuntu-1204: ==> default: Hit http://archive.ubuntu.com precise/restricted i386 Packages
+I, [2016-11-08T22:18:48.008461 #568]  INFO -- default-ubuntu-1204: ==> default: Hit http://archive.ubuntu.com precise/universe i386 Packages
+I, [2016-11-08T22:18:48.084024 #568]  INFO -- default-ubuntu-1204: ==> default: Hit http://archive.ubuntu.com precise/multiverse i386 Packages
+I, [2016-11-08T22:18:48.159586 #568]  INFO -- default-ubuntu-1204: ==> default: Hit http://archive.ubuntu.com precise/main TranslationIndex
+I, [2016-11-08T22:18:48.245913 #568]  INFO -- default-ubuntu-1204: ==> default: Hit http://archive.ubuntu.com precise/multiverse TranslationIndex
+I, [2016-11-08T22:18:48.310713 #568]  INFO -- default-ubuntu-1204: ==> default: Hit http://archive.ubuntu.com precise/restricted TranslationIndex
+I, [2016-11-08T22:18:48.386275 #568]  INFO -- default-ubuntu-1204: ==> default: Hit http://archive.ubuntu.com precise/universe TranslationIndex
+I, [2016-11-08T22:18:48.461838 #568]  INFO -- default-ubuntu-1204: ==> default: Get:18 http://archive.ubuntu.com precise-updates/main Sources [499 kB]
+I, [2016-11-08T22:18:49.638455 #568]  INFO -- default-ubuntu-1204: ==> default: Get:19 http://archive.ubuntu.com precise-updates/restricted Sources [8,840 B]
+I, [2016-11-08T22:18:49.724787 #568]  INFO -- default-ubuntu-1204: ==> default: Get:20 http://archive.ubuntu.com precise-updates/universe Sources [132 kB]
+I, [2016-11-08T22:18:49.854321 #568]  INFO -- default-ubuntu-1204: ==> default: Get:21 http://security.ubuntu.com precise-security/universe Translation-en [88.7 kB]
+I, [2016-11-08T22:18:50.060282 #568]  INFO -- default-ubuntu-1204: ==> default: Get:22 http://archive.ubuntu.com precise-updates/multiverse Sources [10.5 kB]
+I, [2016-11-08T22:18:50.147016 #568]  INFO -- default-ubuntu-1204: ==> default: Get:23 http://archive.ubuntu.com precise-updates/main amd64 Packages [1,028 kB]
+I, [2016-11-08T22:18:51.943672 #568]  INFO -- default-ubuntu-1204: ==> default: Get:24 http://archive.ubuntu.com precise-updates/restricted amd64 Packages [15.4 kB]
+I, [2016-11-08T22:18:52.105593 #568]  INFO -- default-ubuntu-1204: ==> default: Get:25 http://archive.ubuntu.com precise-updates/universe amd64 Packages [283 kB]
+I, [2016-11-08T22:18:53.413017 #568]  INFO -- default-ubuntu-1204: ==> default: Get:26 http://archive.ubuntu.com precise-updates/multiverse amd64 Packages [17.1 kB]
+I, [2016-11-08T22:18:53.510354 #568]  INFO -- default-ubuntu-1204: ==> default: Get:27 http://archive.ubuntu.com precise-updates/main i386 Packages [1,096 kB]
+I, [2016-11-08T22:18:55.618491 #568]  INFO -- default-ubuntu-1204: ==> default: Get:28 http://archive.ubuntu.com precise-updates/restricted i386 Packages [15.4 kB]
+I, [2016-11-08T22:18:55.704842 #568]  INFO -- default-ubuntu-1204: ==> default: Get:29 http://archive.ubuntu.com precise-updates/universe i386 Packages [292 kB]
+I, [2016-11-08T22:18:56.340581 #568]  INFO -- default-ubuntu-1204: ==> default: Get:30 http://archive.ubuntu.com precise-updates/multiverse i386 Packages [17.3 kB]
+I, [2016-11-08T22:18:56.503152 #568]  INFO -- default-ubuntu-1204: ==> default: Get:31 http://archive.ubuntu.com precise-updates/main TranslationIndex [208 B]
+I, [2016-11-08T22:18:56.589755 #568]  INFO -- default-ubuntu-1204: ==> default: Get:32 http://archive.ubuntu.com precise-updates/multiverse TranslationIndex [202 B]
+I, [2016-11-08T22:18:56.666041 #568]  INFO -- default-ubuntu-1204: ==> default: Get:33 http://archive.ubuntu.com precise-updates/restricted TranslationIndex [202 B]
+I, [2016-11-08T22:18:56.742443 #568]  INFO -- default-ubuntu-1204: ==> default: Get:34 http://archive.ubuntu.com precise-updates/universe TranslationIndex [205 B]
+I, [2016-11-08T22:18:56.819115 #568]  INFO -- default-ubuntu-1204: ==> default: Get:35 http://archive.ubuntu.com precise-backports/main Sources [5,922 B]
+I, [2016-11-08T22:18:56.896178 #568]  INFO -- default-ubuntu-1204: ==> default: Get:36 http://archive.ubuntu.com precise-backports/restricted Sources [28 B]
+I, [2016-11-08T22:18:56.971755 #568]  INFO -- default-ubuntu-1204: ==> default: Get:37 http://archive.ubuntu.com precise-backports/universe Sources [44.2 kB]
+I, [2016-11-08T22:18:57.146653 #568]  INFO -- default-ubuntu-1204: ==> default: Get:38 http://archive.ubuntu.com precise-backports/multiverse Sources [5,750 B]
+I, [2016-11-08T22:18:57.222234 #568]  INFO -- default-ubuntu-1204: ==> default: Hit http://archive.ubuntu.com precise-backports/main amd64 Packages
+I, [2016-11-08T22:18:57.297770 #568]  INFO -- default-ubuntu-1204: ==> default: Hit http://archive.ubuntu.com precise-backports/restricted amd64 Packages
+I, [2016-11-08T22:18:57.373331 #568]  INFO -- default-ubuntu-1204: ==> default: Hit http://archive.ubuntu.com precise-backports/universe amd64 Packages
+I, [2016-11-08T22:18:57.449181 #568]  INFO -- default-ubuntu-1204: ==> default: Hit http://archive.ubuntu.com precise-backports/multiverse amd64 Packages
+I, [2016-11-08T22:18:57.524719 #568]  INFO -- default-ubuntu-1204: ==> default: Hit http://archive.ubuntu.com precise-backports/main i386 Packages
+I, [2016-11-08T22:18:57.611258 #568]  INFO -- default-ubuntu-1204: ==> default: Hit http://archive.ubuntu.com precise-backports/restricted i386 Packages
+I, [2016-11-08T22:18:57.698135 #568]  INFO -- default-ubuntu-1204: ==> default: Hit http://archive.ubuntu.com precise-backports/universe i386 Packages
+I, [2016-11-08T22:18:57.773723 #568]  INFO -- default-ubuntu-1204: ==> default: Hit http://archive.ubuntu.com precise-backports/multiverse i386 Packages
+I, [2016-11-08T22:18:57.848754 #568]  INFO -- default-ubuntu-1204: ==> default: Hit http://archive.ubuntu.com precise-backports/main TranslationIndex
+I, [2016-11-08T22:18:57.924118 #568]  INFO -- default-ubuntu-1204: ==> default: Hit http://archive.ubuntu.com precise-backports/multiverse TranslationIndex
+I, [2016-11-08T22:18:58.000558 #568]  INFO -- default-ubuntu-1204: ==> default: Hit http://archive.ubuntu.com precise-backports/restricted TranslationIndex
+I, [2016-11-08T22:18:58.077052 #568]  INFO -- default-ubuntu-1204: ==> default: Hit http://archive.ubuntu.com precise-backports/universe TranslationIndex
+I, [2016-11-08T22:18:58.152672 #568]  INFO -- default-ubuntu-1204: ==> default: Hit http://archive.ubuntu.com precise/main Translation-en
+I, [2016-11-08T22:18:58.239048 #568]  INFO -- default-ubuntu-1204: ==> default: Hit http://archive.ubuntu.com precise/multiverse Translation-en
+I, [2016-11-08T22:18:58.314591 #568]  INFO -- default-ubuntu-1204: ==> default: Hit http://archive.ubuntu.com precise/restricted Translation-en
+I, [2016-11-08T22:18:58.390670 #568]  INFO -- default-ubuntu-1204: ==> default: Hit http://archive.ubuntu.com precise/universe Translation-en
+I, [2016-11-08T22:18:58.466232 #568]  INFO -- default-ubuntu-1204: ==> default: Get:39 http://archive.ubuntu.com precise-updates/main Translation-en [426 kB]
+I, [2016-11-08T22:18:59.478532 #568]  INFO -- default-ubuntu-1204: ==> default: Get:40 http://archive.ubuntu.com precise-updates/multiverse Translation-en [10.1 kB]
+I, [2016-11-08T22:18:59.565891 #568]  INFO -- default-ubuntu-1204: ==> default: Get:41 http://archive.ubuntu.com precise-updates/restricted Translation-en [3,682 B]
+I, [2016-11-08T22:18:59.652228 #568]  INFO -- default-ubuntu-1204: ==> default: Get:42 http://archive.ubuntu.com precise-updates/universe Translation-en [170 kB]
+I, [2016-11-08T22:19:00.200363 #568]  INFO -- default-ubuntu-1204: ==> default: Hit http://archive.ubuntu.com precise-backports/main Translation-en
+I, [2016-11-08T22:19:00.309107 #568]  INFO -- default-ubuntu-1204: ==> default: Hit http://archive.ubuntu.com precise-backports/multiverse Translation-en
+I, [2016-11-08T22:19:00.384291 #568]  INFO -- default-ubuntu-1204: ==> default: Hit http://archive.ubuntu.com precise-backports/restricted Translation-en
+I, [2016-11-08T22:19:00.460141 #568]  INFO -- default-ubuntu-1204: ==> default: Hit http://archive.ubuntu.com precise-backports/universe Translation-en
+I, [2016-11-08T22:19:00.481729 #568]  INFO -- default-ubuntu-1204: ==> default: Fetched 12.5 MB in 28s (438 kB/s)
+I, [2016-11-08T22:19:00.481729 #568]  INFO -- default-ubuntu-1204: ==> default: Reading package lists...
+I, [2016-11-08T22:19:02.478768 #568]  INFO -- default-ubuntu-1204: ==> default: Reading package lists...
+I, [2016-11-08T22:19:02.478768 #568]  INFO -- default-ubuntu-1204: ==> default: Building dependency tree...
+I, [2016-11-08T22:19:02.727077 #568]  INFO -- default-ubuntu-1204: ==> default: Reading state information...
+I, [2016-11-08T22:19:02.953738 #568]  INFO -- default-ubuntu-1204: ==> default: The following extra packages will be installed:
+I, [2016-11-08T22:19:02.964530 #568]  INFO -- default-ubuntu-1204: ==> default:   apache2-mpm-worker apache2-utils apache2.2-bin apache2.2-common libapr1
+I, [2016-11-08T22:19:02.964530 #568]  INFO -- default-ubuntu-1204: ==> default:   libaprutil1 libaprutil1-dbd-sqlite3 libaprutil1-ldap libdbd-mysql-perl
+I, [2016-11-08T22:19:02.964530 #568]  INFO -- default-ubuntu-1204: ==> default:   libdbi-perl libexpat1-dev libhtml-template-perl libmysqlclient18
+I, [2016-11-08T22:19:02.964530 #568]  INFO -- default-ubuntu-1204: ==> default:   libnet-daemon-perl libplrpc-perl libssl-dev libssl-doc libterm-readkey-perl
+I, [2016-11-08T22:19:02.964530 #568]  INFO -- default-ubuntu-1204: ==> default:   mysql-client-5.5 mysql-client-core-5.5 mysql-common mysql-server-core-5.5
+I, [2016-11-08T22:19:02.964530 #568]  INFO -- default-ubuntu-1204: ==> default:   ssl-cert zlib1g-dev
+I, [2016-11-08T22:19:02.964530 #568]  INFO -- default-ubuntu-1204: ==> default: Suggested packages:
+I, [2016-11-08T22:19:02.964530 #568]  INFO -- default-ubuntu-1204: ==> default:   apache2-doc apache2-suexec apache2-suexec-custom libipc-sharedcache-perl
+I, [2016-11-08T22:19:02.964530 #568]  INFO -- default-ubuntu-1204: ==> default:   tinyca mailx openssl-blacklist zip
+I, [2016-11-08T22:19:02.964530 #568]  INFO -- default-ubuntu-1204: ==> default: The following NEW packages will be installed:
+I, [2016-11-08T22:19:02.964530 #568]  INFO -- default-ubuntu-1204: ==> default:   apache2 apache2-mpm-worker apache2-utils apache2.2-bin apache2.2-common
+I, [2016-11-08T22:19:02.964530 #568]  INFO -- default-ubuntu-1204: ==> default:   libapr1 libaprutil1 libaprutil1-dbd-sqlite3 libaprutil1-ldap
+I, [2016-11-08T22:19:02.964530 #568]  INFO -- default-ubuntu-1204: ==> default:   libdbd-mysql-perl libdbi-perl libexpat1-dev libhtml-template-perl
+I, [2016-11-08T22:19:02.964530 #568]  INFO -- default-ubuntu-1204: ==> default:   libmysqlclient18 libnet-daemon-perl libplrpc-perl libssl-dev libssl-doc
+I, [2016-11-08T22:19:02.964530 #568]  INFO -- default-ubuntu-1204: ==> default:   libterm-readkey-perl mysql-client-5.5 mysql-client-core-5.5 mysql-common
+I, [2016-11-08T22:19:02.965510 #568]  INFO -- default-ubuntu-1204: ==> default:   mysql-server-5.5 mysql-server-core-5.5 python2.7-dev ssl-cert unzip
+I, [2016-11-08T22:19:02.965510 #568]  INFO -- default-ubuntu-1204: ==> default:   zlib1g-dev
+I, [2016-11-08T22:19:02.997895 #568]  INFO -- default-ubuntu-1204: ==> default: 0 upgraded, 28 newly installed, 0 to remove and 0 not upgraded.
+I, [2016-11-08T22:19:02.997895 #568]  INFO -- default-ubuntu-1204: ==> default: Need to get 62.2 MB of archives.
+I, [2016-11-08T22:19:02.997895 #568]  INFO -- default-ubuntu-1204: ==> default: After this operation, 153 MB of additional disk space will be used.
+I, [2016-11-08T22:19:02.997895 #568]  INFO -- default-ubuntu-1204: ==> default: WARNING: The following packages cannot be authenticated!
+I, [2016-11-08T22:19:02.997895 #568]  INFO -- default-ubuntu-1204: ==> default:   mysql-common libmysqlclient18 libnet-daemon-perl libplrpc-perl libdbi-perl
+I, [2016-11-08T22:19:03.008693 #568]  INFO -- default-ubuntu-1204: ==> default:   libdbd-mysql-perl mysql-client-core-5.5 libterm-readkey-perl
+I, [2016-11-08T22:19:03.008693 #568]  INFO -- default-ubuntu-1204: ==> default:   mysql-client-5.5 mysql-server-core-5.5 mysql-server-5.5 libapr1 libaprutil1
+I, [2016-11-08T22:19:03.008693 #568]  INFO -- default-ubuntu-1204: ==> default:   libaprutil1-dbd-sqlite3 libaprutil1-ldap apache2.2-bin apache2-utils
+I, [2016-11-08T22:19:03.008693 #568]  INFO -- default-ubuntu-1204: ==> default:   apache2.2-common apache2-mpm-worker apache2 libexpat1-dev
+I, [2016-11-08T22:19:03.008693 #568]  INFO -- default-ubuntu-1204: ==> default:   libhtml-template-perl zlib1g-dev libssl-dev libssl-doc python2.7-dev
+I, [2016-11-08T22:19:03.008693 #568]  INFO -- default-ubuntu-1204: ==> default:   ssl-cert unzip
+I, [2016-11-08T22:19:03.236591 #568]  INFO -- default-ubuntu-1204: ==> default: Authentication warning overridden.
+I, [2016-11-08T22:19:03.236591 #568]  INFO -- default-ubuntu-1204: ==> default: Get:1 http://archive.ubuntu.com/ubuntu/ precise-updates/main mysql-common all 5.5.53-0ubuntu0.12.04.1 [12.6 kB]
+I, [2016-11-08T22:19:03.355815 #568]  INFO -- default-ubuntu-1204: ==> default: Get:2 http://archive.ubuntu.com/ubuntu/ precise-updates/main libmysqlclient18 amd64 5.5.53-0ubuntu0.12.04.1 [952 kB]
+I, [2016-11-08T22:19:05.337117 #568]  INFO -- default-ubuntu-1204: ==> default: Get:3 http://archive.ubuntu.com/ubuntu/ precise/main libnet-daemon-perl all 0.48-1 [43.1 kB]
+I, [2016-11-08T22:19:05.465997 #568]  INFO -- default-ubuntu-1204: ==> default: Get:4 http://archive.ubuntu.com/ubuntu/ precise/main libplrpc-perl all 0.2020-2 [36.0 kB]
+I, [2016-11-08T22:19:05.594876 #568]  INFO -- default-ubuntu-1204: ==> default: Get:5 http://archive.ubuntu.com/ubuntu/ precise/main libdbi-perl amd64 1.616-1build2 [849 kB]
+I, [2016-11-08T22:19:09.742738 #568]  INFO -- default-ubuntu-1204: ==> default: Get:6 http://archive.ubuntu.com/ubuntu/ precise-updates/main libdbd-mysql-perl amd64 4.020-1ubuntu0.1 [104 kB]
+I, [2016-11-08T22:19:10.002766 #568]  INFO -- default-ubuntu-1204: ==> default: Get:7 http://archive.ubuntu.com/ubuntu/ precise-updates/main mysql-client-core-5.5 amd64 5.5.53-0ubuntu0.12.04.1 [1,947 kB]
+I, [2016-11-08T22:19:15.671074 #568]  INFO -- default-ubuntu-1204: ==> default: Get:8 http://archive.ubuntu.com/ubuntu/ precise/main libterm-readkey-perl amd64 2.30-4build3 [28.6 kB]
+I, [2016-11-08T22:19:16.531012 #568]  INFO -- default-ubuntu-1204: ==> default: Get:9 http://archive.ubuntu.com/ubuntu/ precise-updates/main mysql-client-5.5 amd64 5.5.53-0ubuntu0.12.04.1 [8,381 kB]
+I, [2016-11-08T22:19:43.220051 #568]  INFO -- default-ubuntu-1204: ==> default: Get:10 http://archive.ubuntu.com/ubuntu/ precise-updates/main mysql-server-core-5.5 amd64 5.5.53-0ubuntu0.12.04.1 [6,324 kB]
+I, [2016-11-08T22:19:59.889375 #568]  INFO -- default-ubuntu-1204: ==> default: Get:11 http://archive.ubuntu.com/ubuntu/ precise-updates/main mysql-server-5.5 amd64 5.5.53-0ubuntu0.12.04.1 [8,852 kB]
+I, [2016-11-08T22:20:22.336568 #568]  INFO -- default-ubuntu-1204: ==> default: Get:12 http://archive.ubuntu.com/ubuntu/ precise/main libapr1 amd64 1.4.6-1 [89.6 kB]
+I, [2016-11-08T22:20:22.747339 #568]  INFO -- default-ubuntu-1204: ==> default: Get:13 http://archive.ubuntu.com/ubuntu/ precise/main libaprutil1 amd64 1.3.12+dfsg-3 [74.6 kB]
+I, [2016-11-08T22:20:22.984199 #568]  INFO -- default-ubuntu-1204: ==> default: Get:14 http://archive.ubuntu.com/ubuntu/ precise/main libaprutil1-dbd-sqlite3 amd64 1.3.12+dfsg-3 [10.4 kB]
+I, [2016-11-08T22:20:23.093006 #568]  INFO -- default-ubuntu-1204: ==> default: Get:15 http://archive.ubuntu.com/ubuntu/ precise/main libaprutil1-ldap amd64 1.3.12+dfsg-3 [8,044 B]
+I, [2016-11-08T22:20:23.200337 #568]  INFO -- default-ubuntu-1204: ==> default: Get:16 http://archive.ubuntu.com/ubuntu/ precise-updates/main apache2.2-bin amd64 2.2.22-1ubuntu1.11 [1,345 kB]
+I, [2016-11-08T22:20:27.862286 #568]  INFO -- default-ubuntu-1204: ==> default: Get:17 http://archive.ubuntu.com/ubuntu/ precise-updates/main apache2-utils amd64 2.2.22-1ubuntu1.11 [92.2 kB]
+I, [2016-11-08T22:20:29.755504 #568]  INFO -- default-ubuntu-1204: ==> default: Get:18 http://archive.ubuntu.com/ubuntu/ precise-updates/main apache2.2-common amd64 2.2.22-1ubuntu1.11 [228 kB]
+I, [2016-11-08T22:20:30.778973 #568]  INFO -- default-ubuntu-1204: ==> default: Get:19 http://archive.ubuntu.com/ubuntu/ precise-updates/main apache2-mpm-worker amd64 2.2.22-1ubuntu1.11 [2,306 B]
+I, [2016-11-08T22:20:30.876831 #568]  INFO -- default-ubuntu-1204: ==> default: Get:20 http://archive.ubuntu.com/ubuntu/ precise-updates/main apache2 amd64 2.2.22-1ubuntu1.11 [1,490 B]
+I, [2016-11-08T22:20:30.974395 #568]  INFO -- default-ubuntu-1204: ==> default: Get:21 http://archive.ubuntu.com/ubuntu/ precise-updates/main libexpat1-dev amd64 2.0.1-7.2ubuntu1.4 [216 kB]
+I, [2016-11-08T22:20:31.762614 #568]  INFO -- default-ubuntu-1204: ==> default: Get:22 http://archive.ubuntu.com/ubuntu/ precise/main libhtml-template-perl all 2.10-1 [65.0 kB]
+I, [2016-11-08T22:20:32.011247 #568]  INFO -- default-ubuntu-1204: ==> default: Get:23 http://archive.ubuntu.com/ubuntu/ precise/main zlib1g-dev amd64 1:1.2.3.4.dfsg-3ubuntu4 [165 kB]
+I, [2016-11-08T22:20:32.497091 #568]  INFO -- default-ubuntu-1204: ==> default: Get:24 http://archive.ubuntu.com/ubuntu/ precise-updates/main libssl-dev amd64 1.0.1-4ubuntu5.38 [1,581 kB]
+I, [2016-11-08T22:20:36.137459 #568]  INFO -- default-ubuntu-1204: ==> default: Get:25 http://archive.ubuntu.com/ubuntu/ precise-updates/main libssl-doc all 1.0.1-4ubuntu5.38 [1,042 kB]
+I, [2016-11-08T22:20:39.523861 #568]  INFO -- default-ubuntu-1204: ==> default: Get:26 http://archive.ubuntu.com/ubuntu/ precise-updates/main python2.7-dev amd64 2.7.3-0ubuntu3.8 [29.5 MB]
+I, [2016-11-08T22:21:44.841809 #568]  INFO -- default-ubuntu-1204: ==> default: Get:27 http://archive.ubuntu.com/ubuntu/ precise-updates/main ssl-cert all 1.0.28ubuntu0.1 [12.3 kB]
+I, [2016-11-08T22:21:44.950497 #568]  INFO -- default-ubuntu-1204: ==> default: Get:28 http://archive.ubuntu.com/ubuntu/ precise-updates/main unzip amd64 6.0-4ubuntu2.5 [193 kB]
+I, [2016-11-08T22:21:45.383072 #568]  INFO -- default-ubuntu-1204: ==> default: dpkg-preconfigure: unable to re-open stdin: No such file or directory
+I, [2016-11-08T22:21:45.404669 #568]  INFO -- default-ubuntu-1204: ==> default: Fetched 62.2 MB in 2min 42s (383 kB/s)
+I, [2016-11-08T22:21:45.426257 #568]  INFO -- default-ubuntu-1204: ==> default: Selecting previously unselected package mysql-common.
+I, [2016-11-08T22:21:45.426257 #568]  INFO -- default-ubuntu-1204: ==> default: (Reading database ... 
+I, [2016-11-08T22:21:45.512606 #568]  INFO -- default-ubuntu-1204: ==> default: 66244 files and directories currently installed.)
+I, [2016-11-08T22:21:45.512606 #568]  INFO -- default-ubuntu-1204: ==> default: Unpacking mysql-common (from .../mysql-common_5.5.53-0ubuntu0.12.04.1_all.deb) ...
+I, [2016-11-08T22:21:45.534209 #568]  INFO -- default-ubuntu-1204: ==> default: Selecting previously unselected package libmysqlclient18.
+I, [2016-11-08T22:21:45.534209 #568]  INFO -- default-ubuntu-1204: ==> default: Unpacking libmysqlclient18 (from .../libmysqlclient18_5.5.53-0ubuntu0.12.04.1_amd64.deb) ...
+I, [2016-11-08T22:21:45.577381 #568]  INFO -- default-ubuntu-1204: ==> default: Selecting previously unselected package libnet-daemon-perl.
+I, [2016-11-08T22:21:45.577381 #568]  INFO -- default-ubuntu-1204: ==> default: Unpacking libnet-daemon-perl (from .../libnet-daemon-perl_0.48-1_all.deb) ...
+I, [2016-11-08T22:21:45.598946 #568]  INFO -- default-ubuntu-1204: ==> default: Selecting previously unselected package libplrpc-perl.
+I, [2016-11-08T22:21:45.609741 #568]  INFO -- default-ubuntu-1204: ==> default: Unpacking libplrpc-perl (from .../libplrpc-perl_0.2020-2_all.deb) ...
+I, [2016-11-08T22:21:45.631330 #568]  INFO -- default-ubuntu-1204: ==> default: Selecting previously unselected package libdbi-perl.
+I, [2016-11-08T22:21:45.642143 #568]  INFO -- default-ubuntu-1204: ==> default: Unpacking libdbi-perl (from .../libdbi-perl_1.616-1build2_amd64.deb) ...
+I, [2016-11-08T22:21:45.706893 #568]  INFO -- default-ubuntu-1204: ==> default: Selecting previously unselected package libdbd-mysql-perl.
+I, [2016-11-08T22:21:45.706893 #568]  INFO -- default-ubuntu-1204: ==> default: Unpacking libdbd-mysql-perl (from .../libdbd-mysql-perl_4.020-1ubuntu0.1_amd64.deb) ...
+I, [2016-11-08T22:21:45.728509 #568]  INFO -- default-ubuntu-1204: ==> default: Selecting previously unselected package mysql-client-core-5.5.
+I, [2016-11-08T22:21:45.739278 #568]  INFO -- default-ubuntu-1204: ==> default: Unpacking mysql-client-core-5.5 (from .../mysql-client-core-5.5_5.5.53-0ubuntu0.12.04.1_amd64.deb) ...
+I, [2016-11-08T22:21:45.804071 #568]  INFO -- default-ubuntu-1204: ==> default: Selecting previously unselected package libterm-readkey-perl.
+I, [2016-11-08T22:21:45.814859 #568]  INFO -- default-ubuntu-1204: ==> default: Unpacking libterm-readkey-perl (from .../libterm-readkey-perl_2.30-4build3_amd64.deb) ...
+I, [2016-11-08T22:21:45.825636 #568]  INFO -- default-ubuntu-1204: ==> default: Selecting previously unselected package mysql-client-5.5.
+I, [2016-11-08T22:21:45.825636 #568]  INFO -- default-ubuntu-1204: ==> default: Unpacking mysql-client-5.5 (from .../mysql-client-5.5_5.5.53-0ubuntu0.12.04.1_amd64.deb) ...
+I, [2016-11-08T22:21:46.084729 #568]  INFO -- default-ubuntu-1204: ==> default: Selecting previously unselected package mysql-server-core-5.5.
+I, [2016-11-08T22:21:46.084729 #568]  INFO -- default-ubuntu-1204: ==> default: Unpacking mysql-server-core-5.5 (from .../mysql-server-core-5.5_5.5.53-0ubuntu0.12.04.1_amd64.deb) ...
+I, [2016-11-08T22:21:46.268241 #568]  INFO -- default-ubuntu-1204: ==> default: Processing triggers for man-db ...
+I, [2016-11-08T22:21:47.131822 #568]  INFO -- default-ubuntu-1204: ==> default: Setting up mysql-common (5.5.53-0ubuntu0.12.04.1) ...
+I, [2016-11-08T22:21:47.164206 #568]  INFO -- default-ubuntu-1204: ==> default: Selecting previously unselected package mysql-server-5.5.
+I, [2016-11-08T22:21:47.164206 #568]  INFO -- default-ubuntu-1204: ==> default: (Reading database ... 
+I, [2016-11-08T22:21:47.196560 #568]  INFO -- default-ubuntu-1204: ==> default: 66622 files and directories currently installed.)
+I, [2016-11-08T22:21:47.196560 #568]  INFO -- default-ubuntu-1204: ==> default: Unpacking mysql-server-5.5 (from .../mysql-server-5.5_5.5.53-0ubuntu0.12.04.1_amd64.deb) ...
+I, [2016-11-08T22:21:47.682346 #568]  INFO -- default-ubuntu-1204: ==> default: Selecting previously unselected package libapr1.
+I, [2016-11-08T22:21:47.693139 #568]  INFO -- default-ubuntu-1204: ==> default: Unpacking libapr1 (from .../libapr1_1.4.6-1_amd64.deb) ...
+I, [2016-11-08T22:21:47.714704 #568]  INFO -- default-ubuntu-1204: ==> default: Selecting previously unselected package libaprutil1.
+I, [2016-11-08T22:21:47.714704 #568]  INFO -- default-ubuntu-1204: ==> default: Unpacking libaprutil1 (from .../libaprutil1_1.3.12+dfsg-3_amd64.deb) ...
+I, [2016-11-08T22:21:47.747112 #568]  INFO -- default-ubuntu-1204: ==> default: Selecting previously unselected package libaprutil1-dbd-sqlite3.
+I, [2016-11-08T22:21:47.757908 #568]  INFO -- default-ubuntu-1204: ==> default: Unpacking libaprutil1-dbd-sqlite3 (from .../libaprutil1-dbd-sqlite3_1.3.12+dfsg-3_amd64.deb) ...
+I, [2016-11-08T22:21:47.779472 #568]  INFO -- default-ubuntu-1204: ==> default: Selecting previously unselected package libaprutil1-ldap.
+I, [2016-11-08T22:21:47.779472 #568]  INFO -- default-ubuntu-1204: ==> default: Unpacking libaprutil1-ldap (from .../libaprutil1-ldap_1.3.12+dfsg-3_amd64.deb) ...
+I, [2016-11-08T22:21:47.802044 #568]  INFO -- default-ubuntu-1204: ==> default: Selecting previously unselected package apache2.2-bin.
+I, [2016-11-08T22:21:47.803025 #568]  INFO -- default-ubuntu-1204: ==> default: Unpacking apache2.2-bin (from .../apache2.2-bin_2.2.22-1ubuntu1.11_amd64.deb) ...
+I, [2016-11-08T22:21:47.878618 #568]  INFO -- default-ubuntu-1204: ==> default: Selecting previously unselected package apache2-utils.
+I, [2016-11-08T22:21:47.878618 #568]  INFO -- default-ubuntu-1204: ==> default: Unpacking apache2-utils (from .../apache2-utils_2.2.22-1ubuntu1.11_amd64.deb) ...
+I, [2016-11-08T22:21:47.900203 #568]  INFO -- default-ubuntu-1204: ==> default: Selecting previously unselected package apache2.2-common.
+I, [2016-11-08T22:21:47.910998 #568]  INFO -- default-ubuntu-1204: ==> default: Unpacking apache2.2-common (from .../apache2.2-common_2.2.22-1ubuntu1.11_amd64.deb) ...
+I, [2016-11-08T22:21:48.008144 #568]  INFO -- default-ubuntu-1204: ==> default: Selecting previously unselected package apache2-mpm-worker.
+I, [2016-11-08T22:21:48.008144 #568]  INFO -- default-ubuntu-1204: ==> default: Unpacking apache2-mpm-worker (from .../apache2-mpm-worker_2.2.22-1ubuntu1.11_amd64.deb) ...
+I, [2016-11-08T22:21:48.029713 #568]  INFO -- default-ubuntu-1204: ==> default: Selecting previously unselected package apache2.
+I, [2016-11-08T22:21:48.040508 #568]  INFO -- default-ubuntu-1204: ==> default: Unpacking apache2 (from .../apache2_2.2.22-1ubuntu1.11_amd64.deb) ...
+I, [2016-11-08T22:21:48.051328 #568]  INFO -- default-ubuntu-1204: ==> default: Selecting previously unselected package libexpat1-dev.
+I, [2016-11-08T22:21:48.062122 #568]  INFO -- default-ubuntu-1204: ==> default: Unpacking libexpat1-dev (from .../libexpat1-dev_2.0.1-7.2ubuntu1.4_amd64.deb) ...
+I, [2016-11-08T22:21:48.094506 #568]  INFO -- default-ubuntu-1204: ==> default: Selecting previously unselected package libhtml-template-perl.
+I, [2016-11-08T22:21:48.094506 #568]  INFO -- default-ubuntu-1204: ==> default: Unpacking libhtml-template-perl (from .../libhtml-template-perl_2.10-1_all.deb) ...
+I, [2016-11-08T22:21:48.116096 #568]  INFO -- default-ubuntu-1204: ==> default: Selecting previously unselected package zlib1g-dev.
+I, [2016-11-08T22:21:48.116096 #568]  INFO -- default-ubuntu-1204: ==> default: Unpacking zlib1g-dev (from .../zlib1g-dev_1%3a1.2.3.4.dfsg-3ubuntu4_amd64.deb) ...
+I, [2016-11-08T22:21:48.137685 #568]  INFO -- default-ubuntu-1204: ==> default: Selecting previously unselected package libssl-dev.
+I, [2016-11-08T22:21:48.148485 #568]  INFO -- default-ubuntu-1204: ==> default: Unpacking libssl-dev (from .../libssl-dev_1.0.1-4ubuntu5.38_amd64.deb) ...
+I, [2016-11-08T22:21:48.213250 #568]  INFO -- default-ubuntu-1204: ==> default: Selecting previously unselected package libssl-doc.
+I, [2016-11-08T22:21:48.224017 #568]  INFO -- default-ubuntu-1204: ==> default: Unpacking libssl-doc (from .../libssl-doc_1.0.1-4ubuntu5.38_all.deb) ...
+I, [2016-11-08T22:21:48.364347 #568]  INFO -- default-ubuntu-1204: ==> default: Selecting previously unselected package python2.7-dev.
+I, [2016-11-08T22:21:48.364347 #568]  INFO -- default-ubuntu-1204: ==> default: Unpacking python2.7-dev (from .../python2.7-dev_2.7.3-0ubuntu3.8_amd64.deb) ...
+I, [2016-11-08T22:21:48.697261 #568]  INFO -- default-ubuntu-1204: ==> default: Selecting previously unselected package ssl-cert.
+I, [2016-11-08T22:21:48.708045 #568]  INFO -- default-ubuntu-1204: ==> default: Unpacking ssl-cert (from .../ssl-cert_1.0.28ubuntu0.1_all.deb) ...
+I, [2016-11-08T22:21:48.729633 #568]  INFO -- default-ubuntu-1204: ==> default: Selecting previously unselected package unzip.
+I, [2016-11-08T22:21:48.740438 #568]  INFO -- default-ubuntu-1204: ==> default: Unpacking unzip (from .../unzip_6.0-4ubuntu2.5_amd64.deb) ...
+I, [2016-11-08T22:21:48.762041 #568]  INFO -- default-ubuntu-1204: ==> default: Processing triggers for ureadahead ...
+I, [2016-11-08T22:21:48.762041 #568]  INFO -- default-ubuntu-1204: ==> default: Processing triggers for man-db ...
+I, [2016-11-08T22:21:49.971326 #568]  INFO -- default-ubuntu-1204: ==> default: Processing triggers for ufw ...
+I, [2016-11-08T22:21:50.046888 #568]  INFO -- default-ubuntu-1204: ==> default: Setting up libmysqlclient18 (5.5.53-0ubuntu0.12.04.1) ...
+I, [2016-11-08T22:21:50.057682 #568]  INFO -- default-ubuntu-1204: ==> default: Setting up libnet-daemon-perl (0.48-1) ...
+I, [2016-11-08T22:21:50.057682 #568]  INFO -- default-ubuntu-1204: ==> default: Setting up libplrpc-perl (0.2020-2) ...
+I, [2016-11-08T22:21:50.057682 #568]  INFO -- default-ubuntu-1204: ==> default: Setting up libdbi-perl (1.616-1build2) ...
+I, [2016-11-08T22:21:50.057682 #568]  INFO -- default-ubuntu-1204: ==> default: Setting up libdbd-mysql-perl (4.020-1ubuntu0.1) ...
+I, [2016-11-08T22:21:50.068477 #568]  INFO -- default-ubuntu-1204: ==> default: Setting up mysql-client-core-5.5 (5.5.53-0ubuntu0.12.04.1) ...
+I, [2016-11-08T22:21:50.079271 #568]  INFO -- default-ubuntu-1204: ==> default: Setting up libterm-readkey-perl (2.30-4build3) ...
+I, [2016-11-08T22:21:50.079271 #568]  INFO -- default-ubuntu-1204: ==> default: Setting up mysql-client-5.5 (5.5.53-0ubuntu0.12.04.1) ...
+I, [2016-11-08T22:21:50.079271 #568]  INFO -- default-ubuntu-1204: ==> default: Setting up mysql-server-core-5.5 (5.5.53-0ubuntu0.12.04.1) ...
+I, [2016-11-08T22:21:50.079271 #568]  INFO -- default-ubuntu-1204: ==> default: Setting up mysql-server-5.5 (5.5.53-0ubuntu0.12.04.1) ...
+I, [2016-11-08T22:21:51.890726 #568]  INFO -- default-ubuntu-1204: ==> default: 161108 20:21:51 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+I, [2016-11-08T22:21:51.890726 #568]  INFO -- default-ubuntu-1204: ==> default: 161108 20:21:51 [Note] Ignoring --secure-file-priv value as server is running with --bootstrap.
+I, [2016-11-08T22:21:51.890726 #568]  INFO -- default-ubuntu-1204: ==> default: 161108 20:21:51 [Note] /usr/sbin/mysqld (mysqld 5.5.53-0ubuntu0.12.04.1) starting as process 6545 ...
+I, [2016-11-08T22:21:59.719727 #568]  INFO -- default-ubuntu-1204: ==> default: mysql start/running, process 6683
+I, [2016-11-08T22:21:59.784492 #568]  INFO -- default-ubuntu-1204: ==> default: Setting up libapr1 (1.4.6-1) ...
+I, [2016-11-08T22:21:59.806110 #568]  INFO -- default-ubuntu-1204: ==> default: Setting up libaprutil1 (1.3.12+dfsg-3) ...
+I, [2016-11-08T22:21:59.827697 #568]  INFO -- default-ubuntu-1204: ==> default: Setting up libaprutil1-dbd-sqlite3 (1.3.12+dfsg-3) ...
+I, [2016-11-08T22:21:59.838492 #568]  INFO -- default-ubuntu-1204: ==> default: Setting up libaprutil1-ldap (1.3.12+dfsg-3) ...
+I, [2016-11-08T22:21:59.838492 #568]  INFO -- default-ubuntu-1204: ==> default: Setting up apache2.2-bin (2.2.22-1ubuntu1.11) ...
+I, [2016-11-08T22:21:59.838492 #568]  INFO -- default-ubuntu-1204: ==> default: Setting up apache2-utils (2.2.22-1ubuntu1.11) ...
+I, [2016-11-08T22:21:59.849279 #568]  INFO -- default-ubuntu-1204: ==> default: Setting up apache2.2-common (2.2.22-1ubuntu1.11) ...
+I, [2016-11-08T22:22:00.054387 #568]  INFO -- default-ubuntu-1204: ==> default: Enabling site default.
+I, [2016-11-08T22:22:00.119128 #568]  INFO -- default-ubuntu-1204: ==> default: Enabling module alias.
+I, [2016-11-08T22:22:00.173128 #568]  INFO -- default-ubuntu-1204: ==> default: Enabling module autoindex.
+I, [2016-11-08T22:22:00.227099 #568]  INFO -- default-ubuntu-1204: ==> default: Enabling module dir.
+I, [2016-11-08T22:22:00.248675 #568]  INFO -- default-ubuntu-1204: ==> default: Enabling module env.
+I, [2016-11-08T22:22:00.270273 #568]  INFO -- default-ubuntu-1204: ==> default: Enabling module mime.
+I, [2016-11-08T22:22:00.291844 #568]  INFO -- default-ubuntu-1204: ==> default: Enabling module negotiation.
+I, [2016-11-08T22:22:00.313431 #568]  INFO -- default-ubuntu-1204: ==> default: Enabling module setenvif.
+I, [2016-11-08T22:22:00.335032 #568]  INFO -- default-ubuntu-1204: ==> default: Enabling module status.
+I, [2016-11-08T22:22:00.367407 #568]  INFO -- default-ubuntu-1204: ==> default: Enabling module auth_basic.
+I, [2016-11-08T22:22:00.389019 #568]  INFO -- default-ubuntu-1204: ==> default: Enabling module deflate.
+I, [2016-11-08T22:22:00.432198 #568]  INFO -- default-ubuntu-1204: ==> default: Enabling module authz_default.
+I, [2016-11-08T22:22:00.453763 #568]  INFO -- default-ubuntu-1204: ==> default: Enabling module authz_user.
+I, [2016-11-08T22:22:00.486148 #568]  INFO -- default-ubuntu-1204: ==> default: Enabling module authz_groupfile.
+I, [2016-11-08T22:22:00.507738 #568]  INFO -- default-ubuntu-1204: ==> default: Enabling module authn_file.
+I, [2016-11-08T22:22:00.529352 #568]  INFO -- default-ubuntu-1204: ==> default: Enabling module authz_host.
+I, [2016-11-08T22:22:00.550927 #568]  INFO -- default-ubuntu-1204: ==> default: Enabling module reqtimeout.
+I, [2016-11-08T22:22:00.572535 #568]  INFO -- default-ubuntu-1204: ==> default: Setting up apache2-mpm-worker (2.2.22-1ubuntu1.11) ...
+I, [2016-11-08T22:22:00.637416 #568]  INFO -- default-ubuntu-1204: ==> default:  * Starting web server apache2
+I, [2016-11-08T22:22:00.648180 #568]  INFO -- default-ubuntu-1204: ==> default: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1 for ServerName
+I, [2016-11-08T22:22:00.648180 #568]  INFO -- default-ubuntu-1204: ==> default:    ...done.
+I, [2016-11-08T22:22:00.658998 #568]  INFO -- default-ubuntu-1204: ==> default: Setting up apache2 (2.2.22-1ubuntu1.11) ...
+I, [2016-11-08T22:22:00.658998 #568]  INFO -- default-ubuntu-1204: ==> default: Setting up libexpat1-dev (2.0.1-7.2ubuntu1.4) ...
+I, [2016-11-08T22:22:00.669768 #568]  INFO -- default-ubuntu-1204: ==> default: Setting up libhtml-template-perl (2.10-1) ...
+I, [2016-11-08T22:22:00.669768 #568]  INFO -- default-ubuntu-1204: ==> default: Setting up zlib1g-dev (1:1.2.3.4.dfsg-3ubuntu4) ...
+I, [2016-11-08T22:22:00.669768 #568]  INFO -- default-ubuntu-1204: ==> default: Setting up libssl-dev (1.0.1-4ubuntu5.38) ...
+I, [2016-11-08T22:22:00.691357 #568]  INFO -- default-ubuntu-1204: ==> default: Setting up libssl-doc (1.0.1-4ubuntu5.38) ...
+I, [2016-11-08T22:22:00.691357 #568]  INFO -- default-ubuntu-1204: ==> default: Setting up python2.7-dev (2.7.3-0ubuntu3.8) ...
+I, [2016-11-08T22:22:00.702188 #568]  INFO -- default-ubuntu-1204: ==> default: Setting up ssl-cert (1.0.28ubuntu0.1) ...
+I, [2016-11-08T22:22:00.950489 #568]  INFO -- default-ubuntu-1204: ==> default: Setting up unzip (6.0-4ubuntu2.5) ...
+I, [2016-11-08T22:22:00.972078 #568]  INFO -- default-ubuntu-1204: ==> default: Processing triggers for libc-bin ...
+I, [2016-11-08T22:22:00.972078 #568]  INFO -- default-ubuntu-1204: ==> default: ldconfig deferred processing now taking place
+I, [2016-11-08T22:22:01.155860 #568]  INFO -- default-ubuntu-1204: ==> default: --2016-11-08 20:22:01--  https://github.com/colincam/Awesome-Appliance-Repair/archive/master.zip
+I, [2016-11-08T22:22:01.155860 #568]  INFO -- default-ubuntu-1204: ==> default: Resolving github.com (github.com)... 
+I, [2016-11-08T22:22:01.273150 #568]  INFO -- default-ubuntu-1204: ==> default: 192.30.253.112
+I, [2016-11-08T22:22:01.273150 #568]  INFO -- default-ubuntu-1204: ==> default: , 
+I, [2016-11-08T22:22:01.273150 #568]  INFO -- default-ubuntu-1204: ==> default: 192.30.253.113
+I, [2016-11-08T22:22:01.273150 #568]  INFO -- default-ubuntu-1204: ==> default: Connecting to github.com (github.com)|192.30.253.112|:443... 
+I, [2016-11-08T22:22:01.436453 #568]  INFO -- default-ubuntu-1204: ==> default: connected.
+I, [2016-11-08T22:22:01.762911 #568]  INFO -- default-ubuntu-1204: ==> default: HTTP request sent, awaiting response... 
+I, [2016-11-08T22:22:01.946665 #568]  INFO -- default-ubuntu-1204: ==> default: 302 Found
+I, [2016-11-08T22:22:01.946665 #568]  INFO -- default-ubuntu-1204: ==> default: Location: https://codeload.github.com/colincam/Awesome-Appliance-Repair/zip/master [following]
+I, [2016-11-08T22:22:01.947609 #568]  INFO -- default-ubuntu-1204: ==> default: --2016-11-08 20:22:02--  https://codeload.github.com/colincam/Awesome-Appliance-Repair/zip/master
+I, [2016-11-08T22:22:01.958553 #568]  INFO -- default-ubuntu-1204: ==> default: Resolving codeload.github.com (codeload.github.com)... 
+I, [2016-11-08T22:22:02.067672 #568]  INFO -- default-ubuntu-1204: ==> default: 192.30.253.121
+I, [2016-11-08T22:22:02.067672 #568]  INFO -- default-ubuntu-1204: ==> default: , 
+I, [2016-11-08T22:22:02.068583 #568]  INFO -- default-ubuntu-1204: ==> default: 192.30.253.120
+I, [2016-11-08T22:22:02.068583 #568]  INFO -- default-ubuntu-1204: ==> default: Connecting to codeload.github.com (codeload.github.com)|192.30.253.121|:443... 
+I, [2016-11-08T22:22:02.230851 #568]  INFO -- default-ubuntu-1204: ==> default: connected.
+I, [2016-11-08T22:22:02.557402 #568]  INFO -- default-ubuntu-1204: ==> default: HTTP request sent, awaiting response... 
+I, [2016-11-08T22:22:02.761108 #568]  INFO -- default-ubuntu-1204: ==> default: 200 OK
+I, [2016-11-08T22:22:02.761108 #568]  INFO -- default-ubuntu-1204: ==> default: Length: 
+I, [2016-11-08T22:22:02.761108 #568]  INFO -- default-ubuntu-1204: ==> default: unspecified
+I, [2016-11-08T22:22:02.772940 #568]  INFO -- default-ubuntu-1204: ==> default:  [application/zip]
+I, [2016-11-08T22:22:02.772940 #568]  INFO -- default-ubuntu-1204: ==> default: Saving to: `master.zip'
+I, [2016-11-08T22:22:02.772940 #568]  INFO -- default-ubuntu-1204: ==> default: 
+I, [2016-11-08T22:22:02.773883 #568]  INFO -- default-ubuntu-1204: ==> default:      0K
+I, [2016-11-08T22:22:02.773883 #568]  INFO -- default-ubuntu-1204: ==> default:  
+I, [2016-11-08T22:22:02.773883 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:02.773883 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:02.773883 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:02.774865 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:02.775846 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:02.786769 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:02.928910 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:02.928910 #568]  INFO -- default-ubuntu-1204: ==> default: ... .
+I, [2016-11-08T22:22:02.929893 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:02.929893 #568]  INFO -- default-ubuntu-1204: ==> default: .......
+I, [2016-11-08T22:22:02.929893 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:03.080904 #568]  INFO -- default-ubuntu-1204: ==> default:  
+I, [2016-11-08T22:22:03.080904 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:03.081898 #568]  INFO -- default-ubuntu-1204: ==> default: ..
+I, [2016-11-08T22:22:03.092695 #568]  INFO -- default-ubuntu-1204: ==> default: .....
+I, [2016-11-08T22:22:03.092695 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:03.092695 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:03.093666 #568]  INFO -- default-ubuntu-1204: ==> default:  
+I, [2016-11-08T22:22:03.093787 #568]  INFO -- default-ubuntu-1204: ==> default: ......
+I, [2016-11-08T22:22:03.232277 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:03.243099 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:03.243099 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:03.243099 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:03.243099 #568]  INFO -- default-ubuntu-1204: ==> default:  ....
+I, [2016-11-08T22:22:03.244086 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:03.244086 #568]  INFO -- default-ubuntu-1204: ==> default: .....  106K
+I, [2016-11-08T22:22:03.244086 #568]  INFO -- default-ubuntu-1204: ==> default:     50K ..
+I, [2016-11-08T22:22:03.397121 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:03.398051 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:03.408928 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:03.408928 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:03.408928 #568]  INFO -- default-ubuntu-1204: ==> default: .... ..........
+I, [2016-11-08T22:22:03.409910 #568]  INFO -- default-ubuntu-1204: ==> default:  
+I, [2016-11-08T22:22:03.409910 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:03.409910 #568]  INFO -- default-ubuntu-1204: ==> default: .....
+I, [2016-11-08T22:22:03.409910 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:03.410891 #568]  INFO -- default-ubuntu-1204: ==> default: ... .......... .
+I, [2016-11-08T22:22:03.562181 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:03.562181 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:03.562181 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:03.562181 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:03.563156 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:03.563156 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:03.574931 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:03.574931 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:03.574931 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:03.574931 #568]  INFO -- default-ubuntu-1204: ==> default:   157K
+I, [2016-11-08T22:22:03.574931 #568]  INFO -- default-ubuntu-1204: ==> default: 
+I, [2016-11-08T22:22:03.575914 #568]  INFO -- default-ubuntu-1204: ==> default:    100K ......
+I, [2016-11-08T22:22:03.575914 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:03.575914 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:03.575914 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:03.575914 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:03.575914 #568]  INFO -- default-ubuntu-1204: ==> default:  
+I, [2016-11-08T22:22:03.576894 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:03.576894 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:03.577877 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:03.588671 #568]  INFO -- default-ubuntu-1204: ==> default: ....... .......... .....
+I, [2016-11-08T22:22:03.588671 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:03.588671 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:03.588671 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:03.588671 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:03.588671 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:03.589651 #568]  INFO -- default-ubuntu-1204: ==> default:  
+I, [2016-11-08T22:22:03.589651 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:03.589651 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:03.589651 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:03.589651 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:03.590633 #568]  INFO -- default-ubuntu-1204: ==> default: ....
+I, [2016-11-08T22:22:03.742537 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:03.742537 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:03.742537 #568]  INFO -- default-ubuntu-1204: ==> default:   283K
+I, [2016-11-08T22:22:03.742537 #568]  INFO -- default-ubuntu-1204: ==> default: 
+I, [2016-11-08T22:22:03.742537 #568]  INFO -- default-ubuntu-1204: ==> default:    150K
+I, [2016-11-08T22:22:03.742537 #568]  INFO -- default-ubuntu-1204: ==> default:  .
+I, [2016-11-08T22:22:04.023251 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:04.023251 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:04.035023 #568]  INFO -- default-ubuntu-1204: ==> default: ....... .......... .......... .......... ..........  171K
+I, [2016-11-08T22:22:04.035023 #568]  INFO -- default-ubuntu-1204: ==> default:    200K .......... .......... .......... ....
+I, [2016-11-08T22:22:04.035023 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:04.036007 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:04.036007 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:04.036987 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:04.037970 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:04.048764 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:04.048764 #568]  INFO -- default-ubuntu-1204: ==> default:  
+I, [2016-11-08T22:22:04.048764 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:04.049743 #568]  INFO -- default-ubuntu-1204: ==> default: ......... 9.46M
+I, [2016-11-08T22:22:04.049743 #568]  INFO -- default-ubuntu-1204: ==> default:    250K .......... .......... .......... .......... .......... 30.6M
+I, [2016-11-08T22:22:04.049743 #568]  INFO -- default-ubuntu-1204: ==> default:    300K .......... .......... .......... .......... .......... 79.3M
+I, [2016-11-08T22:22:04.049743 #568]  INFO -- default-ubuntu-1204: ==> default:    350K .......... .......... .
+I, [2016-11-08T22:22:04.180801 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:04.180801 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:04.180801 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:04.181763 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:04.192576 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:04.192576 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:04.192576 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:04.192576 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:04.193539 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:04.193539 #568]  INFO -- default-ubuntu-1204: ==> default:  .......... ..
+I, [2016-11-08T22:22:04.193539 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:04.194520 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:04.194520 #568]  INFO -- default-ubuntu-1204: ==> default: ......  336K
+I, [2016-11-08T22:22:04.195502 #568]  INFO -- default-ubuntu-1204: ==> default:    400K ..
+I, [2016-11-08T22:22:04.206295 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:04.206295 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:04.206295 #568]  INFO -- default-ubuntu-1204: ==> default: ...... .
+I, [2016-11-08T22:22:04.207273 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:04.207273 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:04.207273 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:04.208267 #568]  INFO -- default-ubuntu-1204: ==> default: ...... ..
+I, [2016-11-08T22:22:04.502727 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:04.502727 #568]  INFO -- default-ubuntu-1204: ==> default: ....... .......... ..........  157K
+I, [2016-11-08T22:22:04.502727 #568]  INFO -- default-ubuntu-1204: ==> default:    450K ........
+I, [2016-11-08T22:22:04.502727 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:04.502727 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:04.502727 #568]  INFO -- default-ubuntu-1204: ==> default:  
+I, [2016-11-08T22:22:04.502727 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:04.503720 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:04.514588 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:04.514588 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:04.514588 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:04.514588 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:04.514588 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:04.514588 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:04.514588 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:04.514588 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:04.515570 #568]  INFO -- default-ubuntu-1204: ==> default:  
+I, [2016-11-08T22:22:04.515570 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:04.515570 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:04.515570 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:04.515570 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:04.515570 #568]  INFO -- default-ubuntu-1204: ==> default: ...... .......... ...
+I, [2016-11-08T22:22:04.526380 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:04.526380 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:04.526380 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:04.526380 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:04.526380 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:04.526380 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:04.526380 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:04.526380 #568]  INFO -- default-ubuntu-1204: ==> default:  1.81M
+I, [2016-11-08T22:22:04.526380 #568]  INFO -- default-ubuntu-1204: ==> default:    500K .......... ...
+I, [2016-11-08T22:22:04.666626 #568]  INFO -- default-ubuntu-1204: ==> default: ....
+I, [2016-11-08T22:22:04.666626 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:04.666626 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:04.666626 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:04.666626 #568]  INFO -- default-ubuntu-1204: ==> default:  
+I, [2016-11-08T22:22:04.666626 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:04.666626 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:04.666626 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:04.667608 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:04.667608 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:04.678402 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:04.678402 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:04.678402 #568]  INFO -- default-ubuntu-1204: ==> default: ... .......... ..........  365K
+I, [2016-11-08T22:22:04.678402 #568]  INFO -- default-ubuntu-1204: ==> default:    550K .......... ...
+I, [2016-11-08T22:22:04.678402 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:04.678402 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:04.678402 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:04.678402 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:04.678402 #568]  INFO -- default-ubuntu-1204: ==> default: ... .........
+I, [2016-11-08T22:22:04.678402 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:04.678402 #568]  INFO -- default-ubuntu-1204: ==> default:  
+I, [2016-11-08T22:22:04.678402 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:04.678402 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:04.678402 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:04.678402 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:04.678402 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:04.678402 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:04.678402 #568]  INFO -- default-ubuntu-1204: ==> default: .... .....
+I, [2016-11-08T22:22:04.678402 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:04.678402 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:04.678402 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:04.679384 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:04.679384 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:04.679384 #568]  INFO -- default-ubuntu-1204: ==> default:  2.58M
+I, [2016-11-08T22:22:04.679384 #568]  INFO -- default-ubuntu-1204: ==> default: 
+I, [2016-11-08T22:22:04.679384 #568]  INFO -- default-ubuntu-1204: ==> default:    600K
+I, [2016-11-08T22:22:04.679384 #568]  INFO -- default-ubuntu-1204: ==> default:  
+I, [2016-11-08T22:22:04.679384 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:04.679384 #568]  INFO -- default-ubuntu-1204: ==> default: ......... .
+I, [2016-11-08T22:22:04.818408 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:04.828966 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:04.828966 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:04.828966 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:04.828966 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:04.828966 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:04.828966 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:04.828966 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:04.828966 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:04.828966 #568]  INFO -- default-ubuntu-1204: ==> default:  
+I, [2016-11-08T22:22:04.828966 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:04.828966 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:04.828966 #568]  INFO -- default-ubuntu-1204: ==> default: .....
+I, [2016-11-08T22:22:04.828966 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:04.828966 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:04.828966 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:04.829947 #568]  INFO -- default-ubuntu-1204: ==> default:  
+I, [2016-11-08T22:22:04.829947 #568]  INFO -- default-ubuntu-1204: ==> default: .......... ......
+I, [2016-11-08T22:22:04.829947 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:04.829947 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:04.829947 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:04.829947 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:04.829947 #568]  INFO -- default-ubuntu-1204: ==> default:   343K
+I, [2016-11-08T22:22:04.829947 #568]  INFO -- default-ubuntu-1204: ==> default: 
+I, [2016-11-08T22:22:04.829947 #568]  INFO -- default-ubuntu-1204: ==> default:    650K
+I, [2016-11-08T22:22:04.829947 #568]  INFO -- default-ubuntu-1204: ==> default:  
+I, [2016-11-08T22:22:04.830928 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:04.830928 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:04.830928 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:04.830928 #568]  INFO -- default-ubuntu-1204: ==> default: .....
+I, [2016-11-08T22:22:04.830928 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:04.841725 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:04.841725 #568]  INFO -- default-ubuntu-1204: ==> default:  .......
+I, [2016-11-08T22:22:04.841725 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:04.841725 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:04.841725 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:04.841725 #568]  INFO -- default-ubuntu-1204: ==> default:  
+I, [2016-11-08T22:22:04.841725 #568]  INFO -- default-ubuntu-1204: ==> default: .....
+I, [2016-11-08T22:22:04.841725 #568]  INFO -- default-ubuntu-1204: ==> default: ..
+I, [2016-11-08T22:22:04.841725 #568]  INFO -- default-ubuntu-1204: ==> default: ... .
+I, [2016-11-08T22:22:04.841725 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:04.841725 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:04.841725 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:04.841725 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:04.853501 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:04.853501 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:04.853501 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:04.853501 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:04.853501 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:04.853501 #568]  INFO -- default-ubuntu-1204: ==> default:  ..
+I, [2016-11-08T22:22:04.853501 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:04.853501 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:04.853501 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:04.982797 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:04.982797 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:04.982797 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:04.982797 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:04.982797 #568]  INFO -- default-ubuntu-1204: ==> default: .
+I, [2016-11-08T22:22:04.982797 #568]  INFO -- default-ubuntu-1204: ==> default:   326K
+I, [2016-11-08T22:22:04.982797 #568]  INFO -- default-ubuntu-1204: ==> default:    700K ..
+I, [2016-11-08T22:22:04.982797 #568]  INFO -- default-ubuntu-1204: ==> default: .....                                                10.3M=2.2s
+I, [2016-11-08T22:22:04.982797 #568]  INFO -- default-ubuntu-1204: ==> default: 
+I, [2016-11-08T22:22:04.982797 #568]  INFO -- default-ubuntu-1204: ==> default: 2016-11-08 20:22:05 (319 KB/s) - `master.zip' saved [724286]
+I, [2016-11-08T22:22:04.983779 #568]  INFO -- default-ubuntu-1204: ==> default: Archive:  master.zip
+I, [2016-11-08T22:22:04.994573 #568]  INFO -- default-ubuntu-1204: ==> default: 22672c6ccf8f0d9effc9f07d4f2081b4be884060
+I, [2016-11-08T22:22:04.994573 #568]  INFO -- default-ubuntu-1204: ==> default:    creating: Awesome-Appliance-Repair-master/
+I, [2016-11-08T22:22:04.994573 #568]  INFO -- default-ubuntu-1204: ==> default:   inflating: Awesome-Appliance-Repair-master/.gitignore  
+I, [2016-11-08T22:22:04.994573 #568]  INFO -- default-ubuntu-1204: ==> default:    creating: Awesome-Appliance-Repair-master/AAR/
+I, [2016-11-08T22:22:04.994573 #568]  INFO -- default-ubuntu-1204: ==> default:  extracting: Awesome-Appliance-Repair-master/AAR/__init__.py  
+I, [2016-11-08T22:22:04.994573 #568]  INFO -- default-ubuntu-1204: ==> default:   inflating: Awesome-Appliance-Repair-master/AAR/awesomeapp.py  
+I, [2016-11-08T22:22:04.994573 #568]  INFO -- default-ubuntu-1204: ==> default:   inflating: Awesome-Appliance-Repair-master/AAR/awesomeapp.wsgi  
+I, [2016-11-08T22:22:04.994573 #568]  INFO -- default-ubuntu-1204: ==> default:  extracting: Awesome-Appliance-Repair-master/AAR/robots.txt  
+I, [2016-11-08T22:22:04.994573 #568]  INFO -- default-ubuntu-1204: ==> default:    creating: Awesome-Appliance-Repair-master/AAR/static/
+I, [2016-11-08T22:22:04.994573 #568]  INFO -- default-ubuntu-1204: ==> default:   inflating: Awesome-Appliance-Repair-master/AAR/static/AAR.css  
+I, [2016-11-08T22:22:04.994573 #568]  INFO -- default-ubuntu-1204: ==> default:    creating: Awesome-Appliance-Repair-master/AAR/static/images/
+I, [2016-11-08T22:22:04.994573 #568]  INFO -- default-ubuntu-1204: ==> default:  extracting: Awesome-Appliance-Repair-master/AAR/static/images/aar_logo1.png  
+I, [2016-11-08T22:22:04.994573 #568]  INFO -- default-ubuntu-1204: ==> default:   inflating: Awesome-Appliance-Repair-master/AAR/static/images/bubble.png  
+I, [2016-11-08T22:22:04.994573 #568]  INFO -- default-ubuntu-1204: ==> default:   inflating: Awesome-Appliance-Repair-master/AAR/static/images/bubble400px.png  
+I, [2016-11-08T22:22:04.994573 #568]  INFO -- default-ubuntu-1204: ==> default:  extracting: Awesome-Appliance-Repair-master/AAR/static/images/close.png  
+I, [2016-11-08T22:22:04.995555 #568]  INFO -- default-ubuntu-1204: ==> default:   inflating: Awesome-Appliance-Repair-master/AAR/static/images/fridge.png  
+I, [2016-11-08T22:22:04.995555 #568]  INFO -- default-ubuntu-1204: ==> default:   inflating: Awesome-Appliance-Repair-master/AAR/static/images/range.png  
+I, [2016-11-08T22:22:04.995555 #568]  INFO -- default-ubuntu-1204: ==> default:    creating: Awesome-Appliance-Repair-master/AAR/static/js/
+I, [2016-11-08T22:22:04.995555 #568]  INFO -- default-ubuntu-1204: ==> default:   inflating: Awesome-Appliance-Repair-master/AAR/static/js/AAR.js  
+I, [2016-11-08T22:22:04.995555 #568]  INFO -- default-ubuntu-1204: ==> default:   inflating: Awesome-Appliance-Repair-master/AAR/static/js/jquery-1.10.2.js  
+I, [2016-11-08T22:22:04.995555 #568]  INFO -- default-ubuntu-1204: ==> default:   inflating: Awesome-Appliance-Repair-master/AAR/static/js/jquery.tablesorter.min.js  
+I, [2016-11-08T22:22:04.996538 #568]  INFO -- default-ubuntu-1204: ==> default:    creating: Awesome-Appliance-Repair-master/AAR/static/sorter-blue/
+I, [2016-11-08T22:22:04.996538 #568]  INFO -- default-ubuntu-1204: ==> default:   inflating: Awesome-Appliance-Repair-master/AAR/static/sorter-blue/asc.gif  
+I, [2016-11-08T22:22:05.007337 #568]  INFO -- default-ubuntu-1204: ==> default:   inflating: Awesome-Appliance-Repair-master/AAR/static/sorter-blue/bg.gif  
+I, [2016-11-08T22:22:05.007337 #568]  INFO -- default-ubuntu-1204: ==> default:   inflating: Awesome-Appliance-Repair-master/AAR/static/sorter-blue/desc.gif  
+I, [2016-11-08T22:22:05.007337 #568]  INFO -- default-ubuntu-1204: ==> default:   inflating: Awesome-Appliance-Repair-master/AAR/static/sorter-blue/style.css  
+I, [2016-11-08T22:22:05.007337 #568]  INFO -- default-ubuntu-1204: ==> default:    creating: Awesome-Appliance-Repair-master/AAR/templates/
+I, [2016-11-08T22:22:05.007337 #568]  INFO -- default-ubuntu-1204: ==> default:   inflating: Awesome-Appliance-Repair-master/AAR/templates/dispatcher.html  
+I, [2016-11-08T22:22:05.007337 #568]  INFO -- default-ubuntu-1204: ==> default:   inflating: Awesome-Appliance-Repair-master/AAR/templates/layout.html  
+I, [2016-11-08T22:22:05.007337 #568]  INFO -- default-ubuntu-1204: ==> default:   inflating: Awesome-Appliance-Repair-master/AAR/templates/login.html  
+I, [2016-11-08T22:22:05.007337 #568]  INFO -- default-ubuntu-1204: ==> default:   inflating: Awesome-Appliance-Repair-master/AAR/templates/repairRequest.html  
+I, [2016-11-08T22:22:05.007337 #568]  INFO -- default-ubuntu-1204: ==> default:   inflating: Awesome-Appliance-Repair-master/AARinstall.py  
+I, [2016-11-08T22:22:05.008312 #568]  INFO -- default-ubuntu-1204: ==> default:   inflating: Awesome-Appliance-Repair-master/LICENSE  
+I, [2016-11-08T22:22:05.008312 #568]  INFO -- default-ubuntu-1204: ==> default:   inflating: Awesome-Appliance-Repair-master/README.md  
+I, [2016-11-08T22:22:05.008312 #568]  INFO -- default-ubuntu-1204: ==> default:    creating: Awesome-Appliance-Repair-master/images/
+I, [2016-11-08T22:22:05.008312 #568]  INFO -- default-ubuntu-1204: ==> default:   inflating: Awesome-Appliance-Repair-master/images/admin_page_cropped.png  
+I, [2016-11-08T22:22:05.008312 #568]  INFO -- default-ubuntu-1204: ==> default:   inflating: Awesome-Appliance-Repair-master/images/request_repair_cropped.png  
+I, [2016-11-08T22:22:05.008312 #568]  INFO -- default-ubuntu-1204: ==> default:   inflating: Awesome-Appliance-Repair-master/images/welcome_page.png  
+I, [2016-11-08T22:22:05.019108 #568]  INFO -- default-ubuntu-1204: ==> default:   inflating: Awesome-Appliance-Repair-master/make_AARdb.sql  
+I, [2016-11-08T22:22:07.718647 #568]  INFO -- default-ubuntu-1204: [SSH] Established
+I, [2016-11-08T22:22:07.719588 #568]  INFO -- default-ubuntu-1204: Vagrant instance <default-ubuntu-1204> created.
+I, [2016-11-08T22:22:07.727692 #568]  INFO -- default-ubuntu-1204: Finished creating <default-ubuntu-1204> (11m29.17s).
+I, [2016-11-08T22:22:07.727692 #568]  INFO -- default-ubuntu-1204: -----> Converging <default-ubuntu-1204>...
+I, [2016-11-08T22:22:07.729649 #568]  INFO -- default-ubuntu-1204: Preparing files for transfer
+I, [2016-11-08T22:22:07.730619 #568]  INFO -- default-ubuntu-1204: Preparing dna.json
+I, [2016-11-08T22:22:07.731605 #568]  INFO -- default-ubuntu-1204: Resolving cookbook dependencies with Berkshelf 5.1.0...
+I, [2016-11-08T22:22:07.842290 #568]  INFO -- default-ubuntu-1204: Removing non-cookbook files before transfer
+I, [2016-11-08T22:22:07.859961 #568]  INFO -- default-ubuntu-1204: Preparing solo.rb
+I, [2016-11-08T22:22:07.885508 #568]  INFO -- default-ubuntu-1204: -----> Installing Chef Omnibus (12.9.41)
+I, [2016-11-08T22:22:07.885508 #568]  INFO -- default-ubuntu-1204: Downloading https://omnitruck.chef.io/install.sh to file /tmp/install.sh
+I, [2016-11-08T22:22:07.885508 #568]  INFO -- default-ubuntu-1204: Trying wget...
+I, [2016-11-08T22:22:09.694760 #568]  INFO -- default-ubuntu-1204: Download complete.
+I, [2016-11-08T22:22:09.705555 #568]  INFO -- default-ubuntu-1204: ubuntu 12.04 x86_64
+I, [2016-11-08T22:22:09.705555 #568]  INFO -- default-ubuntu-1204: Getting information for chef stable 12.9.41 for ubuntu...
+I, [2016-11-08T22:22:09.705555 #568]  INFO -- default-ubuntu-1204: downloading https://omnitruck.chef.io/stable/chef/metadata?v=12.9.41&p=ubuntu&pv=12.04&m=x86_64
+I, [2016-11-08T22:22:09.706536 #568]  INFO -- default-ubuntu-1204:   to file /tmp/install.sh.7279/metadata.txt
+I, [2016-11-08T22:22:09.706536 #568]  INFO -- default-ubuntu-1204: trying wget...
+I, [2016-11-08T22:22:10.905396 #568]  INFO -- default-ubuntu-1204: sha1	7fa9fec0ea5d3b6de8bfaed8798a77f3fab2f2a3
+I, [2016-11-08T22:22:10.905396 #568]  INFO -- default-ubuntu-1204: sha256	4ce410534c1d967e5919ac759eb1f31603c063b3a682ac8b7e0ca08657d356a9
+I, [2016-11-08T22:22:10.906377 #568]  INFO -- default-ubuntu-1204: url	https://packages.chef.io/files/stable/chef/12.9.41/ubuntu/12.04/chef_12.9.41-1_amd64.deb
+I, [2016-11-08T22:22:10.906377 #568]  INFO -- default-ubuntu-1204: version	12.9.41
+I, [2016-11-08T22:22:10.907358 #568]  INFO -- default-ubuntu-1204: downloaded metadata file looks valid...
+I, [2016-11-08T22:22:10.919130 #568]  INFO -- default-ubuntu-1204: downloading https://packages.chef.io/files/stable/chef/12.9.41/ubuntu/12.04/chef_12.9.41-1_amd64.deb
+I, [2016-11-08T22:22:10.919130 #568]  INFO -- default-ubuntu-1204:   to file /tmp/install.sh.7279/chef_12.9.41-1_amd64.deb
+I, [2016-11-08T22:22:10.920112 #568]  INFO -- default-ubuntu-1204: trying wget...
+I, [2016-11-08T22:23:19.956598 #568]  INFO -- default-ubuntu-1204: Comparing checksum with sha256sum...
+I, [2016-11-08T22:23:20.249063 #568]  INFO -- default-ubuntu-1204: Installing chef 12.9.41
+I, [2016-11-08T22:23:20.249063 #568]  INFO -- default-ubuntu-1204: installing with dpkg...
+I, [2016-11-08T22:23:20.292211 #568]  INFO -- default-ubuntu-1204: Selecting previously unselected package chef.
+I, [2016-11-08T22:23:20.325601 #568]  INFO -- default-ubuntu-1204: (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 68912 files and directories currently installed.)
+I, [2016-11-08T22:23:20.337386 #568]  INFO -- default-ubuntu-1204: Unpacking chef (from .../chef_12.9.41-1_amd64.deb) ...
+I, [2016-11-08T22:23:24.126296 #568]  INFO -- default-ubuntu-1204: Setting up chef (12.9.41-1) ...
+I, [2016-11-08T22:23:24.180268 #568]  INFO -- default-ubuntu-1204: Thank you for installing Chef!
+I, [2016-11-08T22:23:24.224770 #568]  INFO -- default-ubuntu-1204: Transferring files to <default-ubuntu-1204>
+I, [2016-11-08T22:23:25.453763 #568]  INFO -- default-ubuntu-1204: Starting Chef Client, version 12.9.41
+I, [2016-11-08T22:23:26.564507 #568]  INFO -- default-ubuntu-1204: Installing Cookbook Gems:
+I, [2016-11-08T22:23:26.564507 #568]  INFO -- default-ubuntu-1204: Compiling Cookbooks...
+I, [2016-11-08T22:23:26.565464 #568]  INFO -- default-ubuntu-1204: Converging 0 resources
+I, [2016-11-08T22:23:26.565464 #568]  INFO -- default-ubuntu-1204: 
+I, [2016-11-08T22:23:26.566444 #568]  INFO -- default-ubuntu-1204: Running handlers:
+I, [2016-11-08T22:23:26.566444 #568]  INFO -- default-ubuntu-1204: Running handlers complete
+I, [2016-11-08T22:23:26.567427 #568]  INFO -- default-ubuntu-1204: Chef Client finished, 0/0 resources updated in 01 seconds
+I, [2016-11-08T22:23:26.672428 #568]  INFO -- default-ubuntu-1204: Finished converging <default-ubuntu-1204> (1m18.94s).
+I, [2016-11-08T22:23:26.672881 #568]  INFO -- default-ubuntu-1204: -----> Setting up <default-ubuntu-1204>...
+I, [2016-11-08T22:23:26.674102 #568]  INFO -- default-ubuntu-1204: Finished setting up <default-ubuntu-1204> (0m0.00s).
+I, [2016-11-08T22:23:26.674102 #568]  INFO -- default-ubuntu-1204: -----> Verifying <default-ubuntu-1204>...
+I, [2016-11-08T22:23:26.676065 #568]  INFO -- default-ubuntu-1204: Preparing files for transfer
+I, [2016-11-08T22:23:26.859601 #568]  INFO -- default-ubuntu-1204: -----> Installing Busser (busser)
+I, [2016-11-08T22:23:28.555027 #568]  INFO -- default-ubuntu-1204: Fetching: thor-0.19.0.gemFetching: thor-0.19.0.gem (  3%)Fetching: thor-0.19.0.gem (  6%)Fetching: thor-0.19.0.gem (  9%)Fetching: thor-0.19.0.gem ( 12%)Fetching: thor-0.19.0.gem ( 15%)Fetching: thor-0.19.0.gem ( 18%)Fetching: thor-0.19.0.gem ( 21%)Fetching: thor-0.19.0.gem ( 24%)Fetching: thor-0.19.0.gem ( 27%)Fetching: thor-0.19.0.gem ( 30%)Fetching: thor-0.19.0.gem ( 33%)Fetching: thor-0.19.0.gem ( 36%)Fetching: thor-0.19.0.gem ( 53%)Fetching: thor-0.19.0.gem ( 71%)Fetching: thor-0.19.0.gem ( 89%)Fetching: thor-0.19.0.gem (100%)Fetching: thor-0.19.0.gem (100%)
+I, [2016-11-08T22:23:28.609980 #568]  INFO -- default-ubuntu-1204: Successfully installed thor-0.19.0
+I, [2016-11-08T22:23:28.706251 #568]  INFO -- default-ubuntu-1204: Fetching: busser-0.7.1.gemFetching: busser-0.7.1.gem ( 64%)Fetching: busser-0.7.1.gem (100%)Fetching: busser-0.7.1.gem (100%)
+I, [2016-11-08T22:23:28.727847 #568]  INFO -- default-ubuntu-1204: Successfully installed busser-0.7.1
+I, [2016-11-08T22:23:28.727847 #568]  INFO -- default-ubuntu-1204: 2 gems installed
+I, [2016-11-08T22:23:28.739633 #568]  INFO -- default-ubuntu-1204: Installing Busser plugins: busser-serverspec
+I, [2016-11-08T22:23:31.890598 #568]  INFO -- default-ubuntu-1204: Plugin serverspec installed (version 0.5.10)
+I, [2016-11-08T22:23:31.901393 #568]  INFO -- default-ubuntu-1204: -----> Running postinstall for serverspec plugin
+I, [2016-11-08T22:23:32.880490 #568]  INFO -- default-ubuntu-1204: Suite path directory /tmp/verifier/suites does not exist, skipping.
+I, [2016-11-08T22:23:32.881429 #568]  INFO -- default-ubuntu-1204: Transferring files to <default-ubuntu-1204>
+I, [2016-11-08T22:23:33.204475 #568]  INFO -- default-ubuntu-1204: -----> Running serverspec test suite
+I, [2016-11-08T22:23:33.215270 #568]  INFO -- default-ubuntu-1204: -----> Installing Serverspec..
+I, [2016-11-08T22:23:35.302853 #568]  INFO -- default-ubuntu-1204: Fetching: diff-lcs-1.2.5.gemFetching: diff-lcs-1.2.5.gem (  5%)Fetching: diff-lcs-1.2.5.gem ( 10%)Fetching: diff-lcs-1.2.5.gem ( 16%)Fetching: diff-lcs-1.2.5.gem ( 22%)Fetching: diff-lcs-1.2.5.gem ( 27%)Fetching: diff-lcs-1.2.5.gem ( 32%)Fetching: diff-lcs-1.2.5.gem ( 38%)Fetching: diff-lcs-1.2.5.gem ( 44%)Fetching: diff-lcs-1.2.5.gem ( 49%)Fetching: diff-lcs-1.2.5.gem ( 55%)Fetching: diff-lcs-1.2.5.gem ( 61%)Fetching: diff-lcs-1.2.5.gem ( 66%)Fetching: diff-lcs-1.2.5.gem ( 99%)Fetching: diff-lcs-1.2.5.gem (100%)Fetching: diff-lcs-1.2.5.gem (100%)
+I, [2016-11-08T22:23:35.693230 #568]  INFO -- default-ubuntu-1204: Fetching: rspec-expectations-3.5.0.gemFetching: rspec-expectations-3.5.0.gem ( 21%)Fetching: rspec-expectations-3.5.0.gem ( 42%)Fetching: rspec-expectations-3.5.0.gem ( 63%)Fetching: rspec-expectations-3.5.0.gem ( 84%)Fetching: rspec-expectations-3.5.0.gem (100%)Fetching: rspec-expectations-3.5.0.gem (100%)
+I, [2016-11-08T22:23:36.062209 #568]  INFO -- default-ubuntu-1204: Fetching: rspec-mocks-3.5.0.gemFetching: rspec-mocks-3.5.0.gem ( 21%)Fetching: rspec-mocks-3.5.0.gem ( 42%)Fetching: rspec-mocks-3.5.0.gem ( 63%)Fetching: rspec-mocks-3.5.0.gem ( 85%)Fetching: rspec-mocks-3.5.0.gem (100%)Fetching: rspec-mocks-3.5.0.gem (100%)
+I, [2016-11-08T22:23:36.321218 #568]  INFO -- default-ubuntu-1204: Fetching: rspec-3.5.0.gemFetching: rspec-3.5.0.gem (100%)Fetching: rspec-3.5.0.gem (100%)
+I, [2016-11-08T22:23:36.556906 #568]  INFO -- default-ubuntu-1204: Fetching: rspec-its-1.2.0.gemFetching: rspec-its-1.2.0.gem (100%)Fetching: rspec-its-1.2.0.gem (100%)
+I, [2016-11-08T22:23:36.793509 #568]  INFO -- default-ubuntu-1204: Fetching: multi_json-1.12.1.gemFetching: multi_json-1.12.1.gem ( 60%)Fetching: multi_json-1.12.1.gem (100%)Fetching: multi_json-1.12.1.gem (100%)
+I, [2016-11-08T22:23:37.216959 #568]  INFO -- default-ubuntu-1204: Fetching: net-ssh-3.2.0.gemFetching: net-ssh-3.2.0.gem (  9%)Fetching: net-ssh-3.2.0.gem ( 18%)Fetching: net-ssh-3.2.0.gem ( 27%)Fetching: net-ssh-3.2.0.gem ( 35%)Fetching: net-ssh-3.2.0.gem ( 44%)Fetching: net-ssh-3.2.0.gem ( 53%)Fetching: net-ssh-3.2.0.gem ( 62%)Fetching: net-ssh-3.2.0.gem ( 71%)Fetching: net-ssh-3.2.0.gem ( 80%)Fetching: net-ssh-3.2.0.gem ( 88%)Fetching: net-ssh-3.2.0.gem ( 97%)Fetching: net-ssh-3.2.0.gem (100%)Fetching: net-ssh-3.2.0.gem (100%)
+I, [2016-11-08T22:23:37.488242 #568]  INFO -- default-ubuntu-1204: Fetching: net-scp-1.2.1.gemFetching: net-scp-1.2.1.gem ( 48%)Fetching: net-scp-1.2.1.gem ( 98%)Fetching: net-scp-1.2.1.gem (100%)Fetching: net-scp-1.2.1.gem (100%)
+I, [2016-11-08T22:23:37.744922 #568]  INFO -- default-ubuntu-1204: Fetching: net-telnet-0.1.1.gemFetching: net-telnet-0.1.1.gem ( 92%)Fetching: net-telnet-0.1.1.gem (100%)Fetching: net-telnet-0.1.1.gem (100%)
+I, [2016-11-08T22:23:37.971438 #568]  INFO -- default-ubuntu-1204: Fetching: sfl-2.3.gemFetching: sfl-2.3.gem (100%)Fetching: sfl-2.3.gem (100%)
+I, [2016-11-08T22:23:38.260839 #568]  INFO -- default-ubuntu-1204: Fetching: specinfra-2.66.0.gemFetching: specinfra-2.66.0.gem ( 19%)Fetching: specinfra-2.66.0.gem ( 39%)Fetching: specinfra-2.66.0.gem ( 59%)Fetching: specinfra-2.66.0.gem ( 78%)Fetching: specinfra-2.66.0.gem ( 98%)Fetching: specinfra-2.66.0.gem (100%)Fetching: specinfra-2.66.0.gem (100%)
+I, [2016-11-08T22:23:38.596053 #568]  INFO -- default-ubuntu-1204: Fetching: serverspec-2.37.2.gemFetching: serverspec-2.37.2.gem ( 40%)Fetching: serverspec-2.37.2.gem ( 82%)Fetching: serverspec-2.37.2.gem (100%)Fetching: serverspec-2.37.2.gem (100%)
+I, [2016-11-08T22:23:38.639231 #568]  INFO -- default-ubuntu-1204: -----> serverspec installed (version 2.37.2)
+I, [2016-11-08T22:23:38.714825 #568]  INFO -- default-ubuntu-1204: /opt/chef/embedded/bin/ruby -I/tmp/verifier/suites/serverspec -I/tmp/verifier/gems/gems/rspec-support-3.5.0/lib:/tmp/verifier/gems/gems/rspec-core-3.5.4/lib /opt/chef/embedded/bin/rspec --pattern /tmp/verifier/suites/serverspec/\*\*/\*_spec.rb --color --format documentation --default-path /tmp/verifier/suites/serverspec
+I, [2016-11-08T22:23:39.038668 #568]  INFO -- default-ubuntu-1204: 
+I, [2016-11-08T22:23:39.038668 #568]  INFO -- default-ubuntu-1204: Port "80"
+I, [2016-11-08T22:23:39.125973 #568]  INFO -- default-ubuntu-1204: [32m  should be listening[0m
+I, [2016-11-08T22:23:39.125973 #568]  INFO -- default-ubuntu-1204: 
+I, [2016-11-08T22:23:39.125973 #568]  INFO -- default-ubuntu-1204: Finished in 0.09057 seconds (files took 0.28874 seconds to load)
+I, [2016-11-08T22:23:39.125973 #568]  INFO -- default-ubuntu-1204: [32m1 example, 0 failures[0m
+I, [2016-11-08T22:23:39.126955 #568]  INFO -- default-ubuntu-1204: 
+I, [2016-11-08T22:23:39.173077 #568]  INFO -- default-ubuntu-1204: Finished verifying <default-ubuntu-1204> (0m12.50s).

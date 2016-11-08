@@ -1,0 +1,98 @@
+I, [2016-11-08T23:12:45.349653 #3900]  INFO -- default-ubuntu-1404: -----> Verifying <default-ubuntu-1404>...
+I, [2016-11-08T23:12:45.351615 #3900]  INFO -- default-ubuntu-1404: Preparing files for transfer
+I, [2016-11-08T23:12:49.048871 #3900]  INFO -- default-ubuntu-1404: -----> Busser installation detected (busser)
+I, [2016-11-08T23:12:49.048871 #3900]  INFO -- default-ubuntu-1404: Installing Busser plugins: busser-serverspec
+I, [2016-11-08T23:12:50.807612 #3900]  INFO -- default-ubuntu-1404: Plugin serverspec already installed
+I, [2016-11-08T23:12:51.005066 #3900]  INFO -- default-ubuntu-1404: Removing /tmp/verifier/suites/serverspec
+I, [2016-11-08T23:12:51.016028 #3900]  INFO -- default-ubuntu-1404: Transferring files to <default-ubuntu-1404>
+I, [2016-11-08T23:12:51.358104 #3900]  INFO -- default-ubuntu-1404: -----> Running serverspec test suite
+I, [2016-11-08T23:12:51.422868 #3900]  INFO -- default-ubuntu-1404: /opt/chef/embedded/bin/ruby -I/tmp/verifier/suites/serverspec -I/tmp/verifier/gems/gems/rspec-support-3.5.0/lib:/tmp/verifier/gems/gems/rspec-core-3.5.4/lib /opt/chef/embedded/bin/rspec --pattern /tmp/verifier/suites/serverspec/\*\*/\*_spec.rb --color --format documentation --default-path /tmp/verifier/suites/serverspec
+I, [2016-11-08T23:12:51.714300 #3900]  INFO -- default-ubuntu-1404: 
+I, [2016-11-08T23:12:51.714300 #3900]  INFO -- default-ubuntu-1404: Port "80"
+I, [2016-11-08T23:12:51.790868 #3900]  INFO -- default-ubuntu-1404: [32m  should be listening[0m
+I, [2016-11-08T23:12:51.790868 #3900]  INFO -- default-ubuntu-1404: 
+I, [2016-11-08T23:12:51.791831 #3900]  INFO -- default-ubuntu-1404: Command "a2query -m mime"
+I, [2016-11-08T23:12:51.791831 #3900]  INFO -- default-ubuntu-1404:   stdout
+I, [2016-11-08T23:12:51.835163 #3900]  INFO -- default-ubuntu-1404: [32m    should contain "enabled"[0m
+I, [2016-11-08T23:12:51.835163 #3900]  INFO -- default-ubuntu-1404: 
+I, [2016-11-08T23:12:51.835986 #3900]  INFO -- default-ubuntu-1404: Command "curl -X POST --silent --output /dev/null --write-out "%{http_code}" -F 'username=ad1' -F 'password=ad1pw' http://localhost/"
+I, [2016-11-08T23:12:51.835986 #3900]  INFO -- default-ubuntu-1404:   stdout
+I, [2016-11-08T23:12:51.858555 #3900]  INFO -- default-ubuntu-1404: [31m    should contain "302" (FAILED - 1)[0m
+I, [2016-11-08T23:12:51.869350 #3900]  INFO -- default-ubuntu-1404: 
+I, [2016-11-08T23:12:51.869350 #3900]  INFO -- default-ubuntu-1404: Failures:
+I, [2016-11-08T23:12:51.869350 #3900]  INFO -- default-ubuntu-1404: 
+I, [2016-11-08T23:12:51.870331 #3900]  INFO -- default-ubuntu-1404:   1) Command "curl -X POST --silent --output /dev/null --write-out "%{http_code}" -F 'username=ad1' -F 'password=ad1pw' http://localhost/" stdout should contain "302"
+I, [2016-11-08T23:12:51.870331 #3900]  INFO -- default-ubuntu-1404:      [31mFailure/Error: its(:stdout) { should contain('302') }[0m
+I, [2016-11-08T23:12:51.870331 #3900]  INFO -- default-ubuntu-1404:      [31m  expected "200" to contain "302"[0m
+I, [2016-11-08T23:12:51.871321 #3900]  INFO -- default-ubuntu-1404:      [31m  /bin/sh -c curl\ -X\ POST\ --silent\ --output\ /dev/null\ --write-out\ \"\%\{http_code\}\"\ -F\ \'username\=ad1\'\ -F\ \'password\=ad1pw\'\ http://localhost/[0m
+I, [2016-11-08T23:12:51.871321 #3900]  INFO -- default-ubuntu-1404:      [31m  200[0m
+I, [2016-11-08T23:12:51.871321 #3900]  INFO -- default-ubuntu-1404:      [36m# /tmp/verifier/suites/serverspec/default_spec.rb:15:in `block (2 levels) in <top (required)>'[0m
+I, [2016-11-08T23:12:51.871321 #3900]  INFO -- default-ubuntu-1404: 
+I, [2016-11-08T23:12:51.872294 #3900]  INFO -- default-ubuntu-1404: Finished in 0.13973 seconds (files took 0.26198 seconds to load)
+I, [2016-11-08T23:12:51.872294 #3900]  INFO -- default-ubuntu-1404: [31m3 examples, 1 failure[0m
+I, [2016-11-08T23:12:51.872294 #3900]  INFO -- default-ubuntu-1404: 
+I, [2016-11-08T23:12:51.873275 #3900]  INFO -- default-ubuntu-1404: Failed examples:
+I, [2016-11-08T23:12:51.873275 #3900]  INFO -- default-ubuntu-1404: 
+I, [2016-11-08T23:12:51.873275 #3900]  INFO -- default-ubuntu-1404: [31mrspec /tmp/verifier/suites/serverspec/default_spec.rb:15[0m [36m# Command "curl -X POST --silent --output /dev/null --write-out "%{http_code}" -F 'username=ad1' -F 'password=ad1pw' http://localhost/" stdout should contain "302"[0m
+I, [2016-11-08T23:12:51.873275 #3900]  INFO -- default-ubuntu-1404: 
+I, [2016-11-08T23:12:51.885056 #3900]  INFO -- default-ubuntu-1404: /opt/chef/embedded/bin/ruby -I/tmp/verifier/suites/serverspec -I/tmp/verifier/gems/gems/rspec-support-3.5.0/lib:/tmp/verifier/gems/gems/rspec-core-3.5.4/lib /opt/chef/embedded/bin/rspec --pattern /tmp/verifier/suites/serverspec/\*\*/\*_spec.rb --color --format documentation --default-path /tmp/verifier/suites/serverspec failed
+I, [2016-11-08T23:12:51.885056 #3900]  INFO -- default-ubuntu-1404: !!!!!! Ruby Script [/tmp/verifier/gems/gems/busser-serverspec-0.5.10/lib/busser/runner_plugin/../serverspec/runner.rb /tmp/verifier/suites/serverspec] exit code was 1
+E, [2016-11-08T23:12:51.898817 #3900] ERROR -- default-ubuntu-1404: Verify failed on instance <default-ubuntu-1404>.
+E, [2016-11-08T23:12:51.898817 #3900] ERROR -- default-ubuntu-1404: ------Exception-------
+E, [2016-11-08T23:12:51.898817 #3900] ERROR -- default-ubuntu-1404: Class: Kitchen::ActionFailed
+E, [2016-11-08T23:12:51.898817 #3900] ERROR -- default-ubuntu-1404: Message: SSH exited (1) for command: [sh -c '
+TEST_KITCHEN="1"; export TEST_KITCHEN
+BUSSER_ROOT="/tmp/verifier"; export BUSSER_ROOT
+GEM_HOME="/tmp/verifier/gems"; export GEM_HOME
+GEM_PATH="/tmp/verifier/gems"; export GEM_PATH
+GEM_CACHE="/tmp/verifier/gems/cache"; export GEM_CACHE
+
+sudo -E /tmp/verifier/bin/busser test
+']
+E, [2016-11-08T23:12:51.898817 #3900] ERROR -- default-ubuntu-1404: ----------------------
+E, [2016-11-08T23:12:51.899780 #3900] ERROR -- default-ubuntu-1404: ------Backtrace-------
+E, [2016-11-08T23:12:51.899780 #3900] ERROR -- default-ubuntu-1404: C:/opscode/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.13.2/lib/kitchen/verifier/base.rb:83:in `rescue in call'
+E, [2016-11-08T23:12:51.899780 #3900] ERROR -- default-ubuntu-1404: C:/opscode/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.13.2/lib/kitchen/verifier/base.rb:86:in `call'
+E, [2016-11-08T23:12:51.899780 #3900] ERROR -- default-ubuntu-1404: C:/opscode/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.13.2/lib/kitchen/instance.rb:430:in `block in verify_action'
+E, [2016-11-08T23:12:51.899780 #3900] ERROR -- default-ubuntu-1404: C:/opscode/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.13.2/lib/kitchen/instance.rb:520:in `synchronize_or_call'
+E, [2016-11-08T23:12:51.899780 #3900] ERROR -- default-ubuntu-1404: C:/opscode/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.13.2/lib/kitchen/instance.rb:485:in `block in action'
+E, [2016-11-08T23:12:51.900760 #3900] ERROR -- default-ubuntu-1404: C:/opscode/chefdk/embedded/lib/ruby/2.3.0/benchmark.rb:293:in `measure'
+E, [2016-11-08T23:12:51.900760 #3900] ERROR -- default-ubuntu-1404: C:/opscode/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.13.2/lib/kitchen/instance.rb:484:in `action'
+E, [2016-11-08T23:12:51.900760 #3900] ERROR -- default-ubuntu-1404: C:/opscode/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.13.2/lib/kitchen/instance.rb:422:in `verify_action'
+E, [2016-11-08T23:12:51.900760 #3900] ERROR -- default-ubuntu-1404: C:/opscode/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.13.2/lib/kitchen/instance.rb:355:in `block in transition_to'
+E, [2016-11-08T23:12:51.900760 #3900] ERROR -- default-ubuntu-1404: C:/opscode/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.13.2/lib/kitchen/instance.rb:354:in `each'
+E, [2016-11-08T23:12:51.900760 #3900] ERROR -- default-ubuntu-1404: C:/opscode/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.13.2/lib/kitchen/instance.rb:354:in `transition_to'
+E, [2016-11-08T23:12:51.900760 #3900] ERROR -- default-ubuntu-1404: C:/opscode/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.13.2/lib/kitchen/instance.rb:160:in `verify'
+E, [2016-11-08T23:12:51.900760 #3900] ERROR -- default-ubuntu-1404: C:/opscode/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.13.2/lib/kitchen/command.rb:201:in `public_send'
+E, [2016-11-08T23:12:51.900760 #3900] ERROR -- default-ubuntu-1404: C:/opscode/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.13.2/lib/kitchen/command.rb:201:in `run_action_in_thread'
+E, [2016-11-08T23:12:51.900760 #3900] ERROR -- default-ubuntu-1404: C:/opscode/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.13.2/lib/kitchen/command.rb:173:in `block (2 levels) in run_action'
+E, [2016-11-08T23:12:51.900760 #3900] ERROR -- default-ubuntu-1404: ----End Backtrace-----
+E, [2016-11-08T23:12:51.901733 #3900] ERROR -- default-ubuntu-1404: ---Nested Exception---
+E, [2016-11-08T23:12:51.901733 #3900] ERROR -- default-ubuntu-1404: Class: Kitchen::Transport::SshFailed
+E, [2016-11-08T23:12:51.901733 #3900] ERROR -- default-ubuntu-1404: Message: SSH exited (1) for command: [sh -c '
+TEST_KITCHEN="1"; export TEST_KITCHEN
+BUSSER_ROOT="/tmp/verifier"; export BUSSER_ROOT
+GEM_HOME="/tmp/verifier/gems"; export GEM_HOME
+GEM_PATH="/tmp/verifier/gems"; export GEM_PATH
+GEM_CACHE="/tmp/verifier/gems/cache"; export GEM_CACHE
+
+sudo -E /tmp/verifier/bin/busser test
+']
+E, [2016-11-08T23:12:51.901733 #3900] ERROR -- default-ubuntu-1404: ----------------------
+E, [2016-11-08T23:12:51.901733 #3900] ERROR -- default-ubuntu-1404: ------Backtrace-------
+E, [2016-11-08T23:12:51.901733 #3900] ERROR -- default-ubuntu-1404: C:/opscode/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.13.2/lib/kitchen/verifier/base.rb:83:in `rescue in call'
+E, [2016-11-08T23:12:51.901733 #3900] ERROR -- default-ubuntu-1404: C:/opscode/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.13.2/lib/kitchen/verifier/base.rb:86:in `call'
+E, [2016-11-08T23:12:51.901733 #3900] ERROR -- default-ubuntu-1404: C:/opscode/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.13.2/lib/kitchen/instance.rb:430:in `block in verify_action'
+E, [2016-11-08T23:12:51.901733 #3900] ERROR -- default-ubuntu-1404: C:/opscode/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.13.2/lib/kitchen/instance.rb:520:in `synchronize_or_call'
+E, [2016-11-08T23:12:51.901733 #3900] ERROR -- default-ubuntu-1404: C:/opscode/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.13.2/lib/kitchen/instance.rb:485:in `block in action'
+E, [2016-11-08T23:12:51.901733 #3900] ERROR -- default-ubuntu-1404: C:/opscode/chefdk/embedded/lib/ruby/2.3.0/benchmark.rb:293:in `measure'
+E, [2016-11-08T23:12:51.901733 #3900] ERROR -- default-ubuntu-1404: C:/opscode/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.13.2/lib/kitchen/instance.rb:484:in `action'
+E, [2016-11-08T23:12:51.901733 #3900] ERROR -- default-ubuntu-1404: C:/opscode/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.13.2/lib/kitchen/instance.rb:422:in `verify_action'
+E, [2016-11-08T23:12:51.901733 #3900] ERROR -- default-ubuntu-1404: C:/opscode/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.13.2/lib/kitchen/instance.rb:355:in `block in transition_to'
+E, [2016-11-08T23:12:51.901733 #3900] ERROR -- default-ubuntu-1404: C:/opscode/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.13.2/lib/kitchen/instance.rb:354:in `each'
+E, [2016-11-08T23:12:51.901733 #3900] ERROR -- default-ubuntu-1404: C:/opscode/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.13.2/lib/kitchen/instance.rb:354:in `transition_to'
+E, [2016-11-08T23:12:51.901733 #3900] ERROR -- default-ubuntu-1404: C:/opscode/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.13.2/lib/kitchen/instance.rb:160:in `verify'
+E, [2016-11-08T23:12:51.901733 #3900] ERROR -- default-ubuntu-1404: C:/opscode/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.13.2/lib/kitchen/command.rb:201:in `public_send'
+E, [2016-11-08T23:12:51.901733 #3900] ERROR -- default-ubuntu-1404: C:/opscode/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.13.2/lib/kitchen/command.rb:201:in `run_action_in_thread'
+E, [2016-11-08T23:12:51.901733 #3900] ERROR -- default-ubuntu-1404: C:/opscode/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.13.2/lib/kitchen/command.rb:173:in `block (2 levels) in run_action'
+E, [2016-11-08T23:12:51.901733 #3900] ERROR -- default-ubuntu-1404: ----End Backtrace-----
